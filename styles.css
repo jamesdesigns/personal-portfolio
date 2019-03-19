@@ -22,92 +22,92 @@ h1,h2,h3,h4,h5,h6 {
 #container {
     display: flex;
     flex-direction: row;
-    opacity: .3;
+    /* opacity: .3; */
     width: 1200px;
     margin:0 auto;
 }
-#a {margin: 2% 5% 5%;}
-#b {margin: 2% 5% 5%;}
-#c {margin: 2% 5% 5%;}
-#d {margin: 2% 5% 5%;}
-#e {margin: 2% 5% 5%; opacity: .3;}
-#f {margin: 2% 5% 5%; opacity: .3;}
-#g {margin: 2% 5% 5%;}
-#h {margin: 2% 5% 5%;}
-#i {margin: 2% 5% 5%;}
-#j {margin: 2% 5% 5%;}
+#a {margin: 2% 5% 5%; opacity: .8;}
+#b {margin: 2% 5% 5%; opacity: .6;}
+#c {margin: 2% 5% 5%; opacity: .4;}
+#d {margin: 2% 5% 5%; opacity: .2;}
+#e {margin: 2% 5% 5%; opacity: .1;}
+#f {margin: 2% 5% 5%; opacity: .1;}
+#g {margin: 2% 5% 5%; opacity: .2;}
+#h {margin: 2% 5% 5%; opacity: .4;}
+#i {margin: 2% 5% 5%; opacity: .6;}
+#j {margin: 2% 5% 5%; opacity: .8;}
 
 #container2 {
     display: flex;
     flex-direction: row;
-    opacity: .3;
+    /* opacity: .3; */
     width: 1200px;
     margin:0 auto;
 }
-#k {margin: 2% 5% 5%;}
-#l {margin: 2% 5% 5%;}
-#m {margin: 2% 5% 5%;}
-#n {margin: 2% 5% 5%;}
-#o {margin: 2% 5% 5%; opacity: .3;}
-#p {margin: 2% 5% 5%; opacity: .3;}
-#q {margin: 2% 5% 5%;}
-#r {margin: 2% 5% 5%;}
-#s {margin: 2% 5% 5%;}
-#t {margin: 2% 5% 5%;}
+#k {margin: 2% 5% 5%; opacity: .8;}
+#l {margin: 2% 5% 5%; opacity: .6;}
+#m {margin: 2% 5% 5%; opacity: .4;}
+#n {margin: 2% 5% 5%; opacity: .2;}
+#o {margin: 2% 5% 5%; opacity: .1;}
+#p {margin: 2% 5% 5%; opacity: .1;}
+#q {margin: 2% 5% 5%; opacity: .2;}
+#r {margin: 2% 5% 5%; opacity: .4;}
+#s {margin: 2% 5% 5%; opacity: .6;}
+#t {margin: 2% 5% 5%; opacity: .8;}
 
 #container3 {
     display: flex;
     flex-direction: row;
-    opacity: .3;
+    /* opacity: .3; */
     width: 1200px;
     margin:0 auto;
 }
-#u {margin: 2% 5% 5%;}
-#v {margin: 2% 5% 5%;}
-#w {margin: 2% 5% 5%;}
-#x {margin: 2% 5% 5%;}
-#y {margin: 2% 5% 5%; opacity: .3;}
-#z {margin: 2% 5% 5%; opacity: .3;}
-#a1 {margin: 2% 5% 5%;}
-#b1 {margin: 2% 5% 5%;}
-#c1 {margin: 2% 5% 5%;}
-#d1 {margin: 2% 5% 5%;}
+#u {margin: 2% 5% 5%; opacity: .8;}
+#v {margin: 2% 5% 5%; opacity: .6;}
+#w {margin: 2% 5% 5%; opacity: .4;}
+#x {margin: 2% 5% 5%; opacity: .2;}
+#y {margin: 2% 5% 5%; opacity: .1;}
+#z {margin: 2% 5% 5%; opacity: .1;}
+#a1 {margin: 2% 5% 5%; opacity:.2;}
+#b1 {margin: 2% 5% 5%; opacity: .4;}
+#c1 {margin: 2% 5% 5%; opacity: .6;}
+#d1 {margin: 2% 5% 5%; opacity: .8;}
 
 #container4 {
     display: flex;
     flex-direction: row;
-    opacity: .3;
+    /* opacity: .3; */
     width: 1200px;
     margin:0 auto;
 }
-#e1 {margin: 2% 5% 5%;}
-#f1 {margin: 2% 5% 5%;}
-#g1 {margin: 2% 5% 5%;}
-#h1 {margin: 2% 5% 5%;}
-#i1 {margin: 2% 5% 5%; opacity: .3;}
-#j1 {margin: 2% 5% 5%; opacity: .3;}
-#k1 {margin: 2% 5% 5%;}
-#l1 {margin: 2% 5% 5%;}
-#m1 {margin: 2% 5% 5%;}
-#n1 {margin: 2% 5% 5%;}
+#e1 {margin: 2% 5% 5%; opacity: .8;}
+#f1 {margin: 2% 5% 5%; opacity: .6;}
+#g1 {margin: 2% 5% 5%; opacity: .4;}
+#h1 {margin: 2% 5% 5%; opacity: .2;}
+#i1 {margin: 2% 5% 5%; opacity: .1;}
+#j1 {margin: 2% 5% 5%; opacity: .1;}
+#k1 {margin: 2% 5% 5%; opacity: .2;}
+#l1 {margin: 2% 5% 5%; opacity: .4;}
+#m1 {margin: 2% 5% 5%; opacity: .6;}
+#n1 {margin: 2% 5% 5%; opacity: .8;}
 
 #container5 {
     display: flex;
     flex-direction: row;
-    opacity: .3;
+    /* opacity: .3; */
     width: 1200px;
     margin:0 auto;
 }
-#o1 {margin: 2% 5% 5%;}
-#p1 {margin: 2% 5% 5%;}
-#q1 {margin: 2% 5% 5%;}
-#r1 {margin: 2% 5% 5%;}
-#s1 {margin: 2% 5% 5%; opacity:.3;}
-#t1 {margin: 2% 5% 5%; opacity:.3;}
-#u1 {margin: 2% 5% 5%;}
-#v1 {margin: 2% 5% 5%;}
-#w1 {margin: 2% 5% 5%;}
-#x1 {margin: 2% 5% 5%;}
+#o1 {margin: 2% 5% 5%; opacity: .8;}
+#p1 {margin: 2% 5% 5%; opacity: .6;}
+#q1 {margin: 2% 5% 5%; opacity: .4;}
+#r1 {margin: 2% 5% 5%; opacity: .2;}
+#s1 {margin: 2% 5% 5%; opacity:.1;}
+#t1 {margin: 2% 5% 5%; opacity:.1;}
+#u1 {margin: 2% 5% 5%; opacity: .2;}
+#v1 {margin: 2% 5% 5%; opacity: .4;}
+#w1 {margin: 2% 5% 5%; opacity: .6;}
+#x1 {margin: 2% 5% 5%; opacity: .8;}
 
 
 #name {
