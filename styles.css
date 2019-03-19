@@ -19,12 +19,49 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+#container {
+    display: flex;
+    flex-direction: row;
+    opacity: .3;
+    width: 1200px;
+    margin:0 auto;
+}
+#a {margin: 2% 5% 5%;}
+#b {margin: 2% 5% 5%;}
+#c {margin: 2% 5% 5%;}
+#d {margin: 2% 5% 5%;}
+#e {margin: 2% 5% 5%;}
+#f {margin: 2% 5% 5%;}
+#g {margin: 2% 5% 5%;}
+#h {margin: 2% 5% 5%;}
+#i {margin: 2% 5% 5%;}
+#j {margin: 2% 5% 5%;}
+
+#container2 {
+    display: flex;
+    flex-direction: row;
+    opacity: .3;
+    width: 1200px;
+    margin:0 auto;
+}
+#k {margin: 2% 5% 5%;}
+#l {margin: 2% 5% 5%;}
+#m {margin: 2% 5% 5%;}
+#n {margin: 2% 5% 5%;}
+#o {margin: 2% 5% 5%;}
+#p {margin: 2% 5% 5%;}
+#q {margin: 2% 5% 5%;}
+#r {margin: 2% 5% 5%;}
+#s {margin: 2% 5% 5%;}
+#t {margin: 2% 5% 5%;}
+
+
 #name {
     font-size: 600%;
     display: block;
 
     margin-left: 15%;
-    margin-top: 25%;
+    margin-top: 15%;
 }
 
 /* Responsive Menu */
@@ -65,7 +102,7 @@ h1,h2,h3,h4,h5,h6 {
   
   .overlay .closebtn {
     position: absolute;
-    top: -2%;
+    top: -2.75%;
     right: 2%;
     font-size: 60px;
   }
