@@ -65,8 +65,8 @@ h1,h2,h3,h4,h5,h6 {
   
   .overlay .closebtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
+    top: -2%;
+    right: 2%;
     font-size: 60px;
   }
   
