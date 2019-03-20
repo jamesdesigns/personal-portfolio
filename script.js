@@ -5,7 +5,7 @@ function mouseOver() {document.getElementById("a").style.color = "red";}
 function mouseOut() {document.getElementById("a").style.color = "white";}
 function myFunction() {document.getElementById("a").innerHTML = "Designer";}
 
-
+/* Logo rotation Icon */
 TweenLite.to(".logo", 2, { ease: "hop", scale:1, rotation:1080 });
 
 
