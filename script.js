@@ -1,3 +1,12 @@
+document.getElementById("a").addEventListener("mouseover", mouseOver);
+document.getElementById("a").addEventListener("mouseout", mouseOut);
+
+function mouseOver() {document.getElementById("a").style.color = "red";}
+function mouseOut() {document.getElementById("a").style.color = "white";}
+function myFunction() {document.getElementById("a").innerHTML = "Designer";}
+
+
+TweenLite.to(".logo", 2, { ease: "hop", scale:1, rotation:1080 });
 
 
 TweenMax.from("#a", 3, {opacity:0, scale:0.5});
