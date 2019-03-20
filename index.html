@@ -4,10 +4,12 @@
 <title>Artist James Hooper</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
-<body>
+<body onload="animateText()">
 <header>
-    <img class="logo" src="icon.png" alt="Artist James Hooper Logo" />
+    <img class="logo" src="icon.png" width="40" height="40" alt="Artist James Hooper Logo" />
+    <div id="profession"></div>
 </header> 
 <span style="font-size:30px;cursor:pointer;float:right;margin-right:2%;margin-top:-3%;" onclick="openNav()">&#9776;</span>
 
@@ -21,6 +23,7 @@
           <a href="#">Contact</a>
         </div>
       </div>
+<section id="mygrid">   
 <div id="container">
 <div id="a">&#9647;</div>
 <div id="b">&#9647;</div>
@@ -87,6 +90,8 @@
 <h1>JAMES HOOPER</h1>
 </div>
 
+</section>   <!-- End of Grid  -->
+
 <script>
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
@@ -96,6 +101,19 @@ function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
 </script>
+<script>
+        var i = 0;
+        var txt = 'Artist + Designer + Developer';
+        var speed = 45;
+        
+        function animateText() {
+          if (i < txt.length) {
+            document.getElementById("profession").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(animateText, speed);
+          }
+        }
+        </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 <script src="script.js"></script>
 </body>
