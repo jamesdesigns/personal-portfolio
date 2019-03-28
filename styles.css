@@ -47,17 +47,26 @@ h1,h2,h3,h4,h5,h6 {
     
 }
 
-#a {margin: 2% 5% 5%; opacity: .8;}
-#a:hover {color: red;}
-#b {margin: 2% 5% 5%; opacity: .6;}
-#c {margin: 2% 5% 5%; opacity: .4;}
-#d {margin: 2% 5% 5%; opacity: .2;}
-#e {margin: 2% 5% 5%; opacity: .1;}
-#f {margin: 2% 5% 5%; opacity: .1;}
-#g {margin: 2% 5% 5%; opacity: .2;}
-#h {margin: 2% 5% 5%; opacity: .4;}
-#i {margin: 2% 5% 5%; opacity: .6;}
-#j {margin: 2% 5% 5%; opacity: .8;}
+#a {margin: 5% 4%; opacity: .8; width: 10px; padding: 20px;}
+#a:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
+#b {margin: 5% 4%; opacity: .6;  width: 10px; padding: 20px;}
+#b:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
+#c {margin: 5% 4%; opacity: .4; width: 10px; padding: 20px;}
+#c:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
+#d {margin: 5% 4%; opacity: .2;  width: 10px; padding: 20px;}
+#d:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
+#e {margin: 5% 4%; opacity: .1;  width: 10px; padding: 20px;}
+#e:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
+#f {margin: 5% 4%; opacity: .1;  width: 10px; padding: 20px;}
+#f:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
+#g {margin: 5% 4%; opacity: .2;  width: 10px; padding: 20px;}
+#g:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
+#h {margin: 5% 4%; opacity: .4;  width: 10px; padding: 20px;}
+#h:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
+#i {margin: 5% 4%; opacity: .6;  width: 10px; padding: 20px;}
+#i:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
+#j {margin: 5% 4%; opacity: .8;  width: 10px; padding: 20px;}
+#j:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
 
 #container2 {
     display: flex;
