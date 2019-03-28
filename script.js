@@ -1,8 +1,7 @@
 document.getElementById("a").addEventListener("mouseover", mouseOver);
 document.getElementById("a").addEventListener("mouseout", mouseOut);
 
-function mouseOver() {document.getElementById("a").style.color = "red";}
-function mouseOut() {document.getElementById("a").style.color = "white";}
+function mouseOut() {document.getElementById("a").style.color = "red";}
 function myFunction() {document.getElementById("a").innerHTML = "Designer";}
 
 /* Logo rotation Icon */
