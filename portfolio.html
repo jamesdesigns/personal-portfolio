@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Artist James Hooper - Portfolio</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body onload="animateText()">
+<header>
+    <img class="logo" src="icon.png" width="40" height="40" alt="Artist James Hooper Logo" />
+    <div id="profession"></div>
+
+</header> 
+<span style="font-size:30px;cursor:pointer;float:right;margin-right:2%;margin-top:-3%;" onclick="openNav()">&#9776;</span>
+
+<div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content"> 
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+<section>
+  <h1>Portfolio</h1>
+</section>
+
+
+
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
+        <script>
+                var i = 0;
+                var txt = 'Artist + Designer + Developer';
+                var speed = 45;
+                
+                function animateText() {
+                  if (i < txt.length) {
+                    document.getElementById("profession").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(animateText, speed);
+                  }
+                }
+                </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+        <script src="script.js"></script>
+        </body>
+        </html>
