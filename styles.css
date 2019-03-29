@@ -1,11 +1,15 @@
 body {
      background-color: #000;
      color: #fff;
-     background-image: url('JamesHooper.png');
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-position: center; 
      margin: 0 auto;
+}
+
+.home {
+margin-left: 7%;
+
 }
 
 header { display: flex; flex-direction: row;}
@@ -31,11 +35,6 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Oswald', sans-serif;
 }
 
-#mygrid {
-    margin-top: 6%;
-    margin-left: -1%;
-}
-
 #container {
     display: flex;
     flex-direction: row;
@@ -47,100 +46,10 @@ h1,h2,h3,h4,h5,h6 {
     
 }
 
-#a {margin: 5% 4%; opacity: .8; width: 10px; padding: 20px;}
-#a:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
-#b {margin: 5% 4%; opacity: .6;  width: 10px; padding: 20px;}
-#b:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
-#c {margin: 5% 4%; opacity: .4; width: 10px; padding: 20px;}
-#c:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
-#d {margin: 5% 4%; opacity: .2;  width: 10px; padding: 20px;}
-#d:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
-#e {margin: 5% 4%; opacity: .1;  width: 10px; padding: 20px;}
-#e:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
-#f {margin: 5% 4%; opacity: .1;  width: 10px; padding: 20px;}
-#f:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
-#g {margin: 5% 4%; opacity: .2;  width: 10px; padding: 20px;}
-#g:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
-#h {margin: 5% 4%; opacity: .4;  width: 10px; padding: 20px;}
-#h:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
-#i {margin: 5% 4%; opacity: .6;  width: 10px; padding: 20px;}
-#i:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
-#j {margin: 5% 4%; opacity: .8;  width: 10px; padding: 20px;}
-#j:hover {color: red; border-top:1px dotted red;border-bottom: 1px dotted red;}
-
-#container2 {
-    display: flex;
-    flex-direction: row;
-    width: 1200px;
-    margin:0 auto;
-}
-#k {margin: 2% 5% 5%; opacity: .8;}
-#l {margin: 2% 5% 5%; opacity: .6;}
-#m {margin: 2% 5% 5%; opacity: .4;}
-#n {margin: 2% 5% 5%; opacity: .2;}
-#o {margin: 2% 5% 5%; opacity: .1;}
-#p {margin: 2% 5% 5%; opacity: .1;}
-#q {margin: 2% 5% 5%; opacity: .2;}
-#r {margin: 2% 5% 5%; opacity: .4;}
-#s {margin: 2% 5% 5%; opacity: .6;}
-#t {margin: 2% 5% 5%; opacity: .8;}
-
-#container3 {
-    display: flex;
-    flex-direction: row;
-    width: 1200px;
-    margin:0 auto;
-}
-#u {margin: 2% 5% 5%; opacity: .8;}
-#v {margin: 2% 5% 5%; opacity: .6;}
-#w {margin: 2% 5% 5%; opacity: .4;}
-#x {margin: 2% 5% 5%; opacity: .2;}
-#y {margin: 2% 5% 5%; opacity: .1;}
-#z {margin: 2% 5% 5%; opacity: .1;}
-#a1 {margin: 2% 5% 5%; opacity:.2;}
-#b1 {margin: 2% 5% 5%; opacity: .4;}
-#c1 {margin: 2% 5% 5%; opacity: .6;}
-#d1 {margin: 2% 5% 5%; opacity: .8;}
-
-#container4 {
-    display: flex;
-    flex-direction: row;
-    width: 1200px;
-    margin:0 auto;
-}
-#e1 {margin: 2% 5% 5%; opacity: .8;}
-#f1 {margin: 2% 5% 5%; opacity: .6;}
-#g1 {margin: 2% 5% 5%; opacity: .4;}
-#h1 {margin: 2% 5% 5%; opacity: .2;}
-#i1 {margin: 2% 5% 5%; opacity: .1;}
-#j1 {margin: 2% 5% 5%; opacity: .1;}
-#k1 {margin: 2% 5% 5%; opacity: .2;}
-#l1 {margin: 2% 5% 5%; opacity: .4;}
-#m1 {margin: 2% 5% 5%; opacity: .6;}
-#n1 {margin: 2% 5% 5%; opacity: .8;}
-
-#container5 {
-    display: flex;
-    flex-direction: row;
-    width: 1200px;
-    margin:0 auto;
-}
-#o1 {margin: 2% 5% 5%; opacity: .8;}
-#p1 {margin: 2% 5% 5%; opacity: .6;}
-#q1 {margin: 2% 5% 5%; opacity: .4;}
-#r1 {margin: 2% 5% 5%; opacity: .2;}
-#s1 {margin: 2% 5% 5%; opacity:.1;}
-#t1 {margin: 2% 5% 5%; opacity:.1;}
-#u1 {margin: 2% 5% 5%; opacity: .2;}
-#v1 {margin: 2% 5% 5%; opacity: .4;}
-#w1 {margin: 2% 5% 5%; opacity: .6;}
-#x1 {margin: 2% 5% 5%; opacity: .8;}
-
-
 #name {
     font-size: 810%;
     display: block;
-    margin-top: 32%;
+    margin-top: -27%;
     margin-left: 16%;
 }
 
