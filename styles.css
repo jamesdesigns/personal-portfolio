@@ -62,18 +62,18 @@ h1,h2,h3,h4,h5,h6 {
 #name {
     font-size: 8rem;
     display: block;
-    margin-top: -7%;
+    margin-top: -2%;
     margin-left: 16%;
     
     z-index: 1000;
 }
 #name:hover {
-  /* background: linear-gradient(to right,#ff8a00,#da1b60);
+  background: linear-gradient(to right,#ff8a00,#da1b60);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
-    z-index: 1000; */
+    z-index: 1000;
 }
 
 /* Responsive Menu */
