@@ -59,9 +59,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #name {
-    font-size: 810%;
+    font-size: 8rem;
     display: block;
-    margin-top: -27%;
+    margin-top: -7%;
     margin-left: 16%;
     
     z-index: 1000;
