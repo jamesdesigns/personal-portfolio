@@ -12,10 +12,15 @@ section#profile {
   width: 100%;
   height: 500px;
 }
+
+#profile {
+
+}
 .home {
 margin-left: 7%;
 z-index: -10000;
 }
+
 
 header { display: flex; flex-direction: row;}
 
@@ -62,10 +67,7 @@ h1,h2,h3,h4,h5,h6 {
 #name {
     font-size: 8rem;
     display: block;
-    margin-top: -2%;
     margin-left: 16%;
-    
-    z-index: 1000;
 }
 #name:hover {
   background: linear-gradient(to right,#ff8a00,#da1b60);
