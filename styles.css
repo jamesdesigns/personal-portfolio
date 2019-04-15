@@ -117,8 +117,35 @@ h1,h2,h3,h4,h5,h6 {
     right: 2%;
     font-size: 60px;
   }
+/* Styling for introduction to James Hooper  */
+  .box.flex {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+    padding: .5rem;
+    height: 300px;
+    color: #fff;
+    font-family: "Lucida Console", Monaco, monospace;
+    background: #000;
+  }
+  
+  .box p {
+    width: 500px;
+    text-align: left;
+    background: #000;
+    margin: .25rem;
+    margin-left: 50px;
+    padding: .25rem;
+  }
   
   @media screen and (max-height: 450px) {
+    .box {
+      display: flex;
+  flex-direction: column;
+    }
+
     .overlay a {font-size: 20px}
     .overlay .closebtn {
     font-size: 40px;
