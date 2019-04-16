@@ -173,7 +173,17 @@ h1 {
   /* NEW TABLE  */
   /* Variables
 ================================== */
+.container {
+  margin: 10%;
 
+  background: linear-gradient(to right,#ff8a00,#da1b60);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  z-index: 1000;
+  
+}
 
 
 /* Tables
