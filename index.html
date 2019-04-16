@@ -5,10 +5,11 @@
 <link href="styles.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 </head>
 <body onload="animateText()">
 <header>
-    <img class="logo" src="icon.png" width="40" height="40" alt="Artist James Hooper Logo" />
+    <!-- <img class="logo" src="icon.png" width="40" height="40" alt="Artist James Hooper Logo" /> -->
     <div id="profession"></div>
 </header> 
 <span style="font-size:30px;cursor:pointer;float:right;margin-right:2%;margin-top:-3%;" onclick="openNav()">&#9776;</span>
@@ -39,32 +40,46 @@
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
       </p>
     </div>
-    <hr>
+    <hr class="dotted">
+
     <div class="container">
+
+        <ul class="skills">
+            <li class="btn">HTML5</li>
+            <li class="btn">CSS3</li>
+            <li class="btn">JavaScript</li>
+          </ul>
+
+<!-- 
     <h2>Skills and Experience</h2>
     <div class="Rtable Rtable--4cols">
     
       <div class="Rtable-cell"><h3>HTML5</h3></div>
-      <div class="Rtable-cell">Has a sword named Ice</div>
-      <div class="Rtable-cell">No direwolf</div>
-      <div class="Rtable-cell"><strong>Lord of Winterfell</strong></div>
+      <div class="Rtable-cell">Love building new web projects from scratch.</div>
+      <div class="Rtable-cell">Advanced</div>
+      <div class="Rtable-cell"><strong>5 years</strong></div>
     
       <div class="Rtable-cell"><h3>CSS3</h3></div>
-      <div class="Rtable-cell">Has a sword named Longclaw</div>
-      <div class="Rtable-cell">Direwolf: Ghost</div>
-      <div class="Rtable-cell"><strong>Knows nothing</strong></div>
+      <div class="Rtable-cell">Creating custom styles with strong typography is one of my strengths.</div>
+      <div class="Rtable-cell">Advanced</div>
+      <div class="Rtable-cell"><strong>5 years</strong></div>
     
       <div class="Rtable-cell"><h3>JavaScript</h3></div>
-      <div class="Rtable-cell">Has a sword named Needle</div>
-      <div class="Rtable-cell">Direwolf: Nymeria</div>
-      <div class="Rtable-cell"><strong>No one</strong></div>
+      <div class="Rtable-cell">I strive to grow and expand my JavaScript skills everyday through personal projects.</div>
+      <div class="Rtable-cell">Moderate</div>
+      <div class="Rtable-cell"><strong>2 years</strong></div>
 
       <div class="Rtable-cell"><h3>GraphQL</h3></div>
       <div class="Rtable-cell">Has a sword named Needle</div>
-      <div class="Rtable-cell">Direwolf: Nymeria</div>
-      <div class="Rtable-cell"><strong>No one</strong></div>
+      <div class="Rtable-cell">Beginner</div>
+      <div class="Rtable-cell"><strong>6 months</strong></div>
+
+      <div class="Rtable-cell"><h3>PHP / MySQL</h3></div>
+      <div class="Rtable-cell">Has a sword named Needle</div>
+      <div class="Rtable-cell">Beginner</div>
+      <div class="Rtable-cell"><strong>1 year</strong></div>
     
-    </div>
+    </div> -->
   </div>
 </section>   <!-- End of Grid  -->
 
@@ -90,7 +105,8 @@ function closeNav() {
           }
         }
         </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+       
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script> -->
 <script src="script.js"></script>
 </body>
 </html>
