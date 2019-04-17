@@ -28,6 +28,8 @@
       </div>
       <section id="profile">
           <!-- <img class="home" src="JamesHooper.png" alt="James Hooper"> -->
+          <div id="stats">57</div>
+          <div id="description">I am working on multiple open source projects. Any chance I get I enjoy working on new and creative projects.</div>
       </section>
 <section>   
     <div id="name">
@@ -96,7 +98,7 @@ function closeNav() {
 </script>
 <script>
         var i = 0;
-        var txt = 'James Hooper | The Web Specialist';
+        var txt = 'James Hooper';
         var speed = 45;
         
         function animateText() {
@@ -107,6 +109,20 @@ function closeNav() {
           }
         }
         </script>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("myNav");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            </script>
        
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script> -->
 <script src="script.js"></script>

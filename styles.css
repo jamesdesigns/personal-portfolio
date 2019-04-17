@@ -8,8 +8,22 @@ body {
      margin: 0 auto;
 }
 
-.mylogo:hover {
-  margin-top: 10px;
+.mylogo {
+  margin-top: 1px;
+}
+
+#myNav {
+overflow: hidden;
+} 
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + #name {
+  padding-top: 10px;
 }
 
 hr {
@@ -19,6 +33,22 @@ hr {
 p {
   color: #ccc;
 }
+#stats {
+  font-size: 8em;
+  color: #fff;
+  margin-left: 2.5%;
+}
+#description {
+  font-size: .85em;
+  display: block;
+  width: 200px;
+  color: #ccc;
+  font-weight: 100;
+  float: right;
+  margin-top: 300px;
+  margin-right: 3%;
+}
+
 section#profile {
   display: block;
   width: 100%;
@@ -64,7 +94,7 @@ header { display: flex; flex-direction: row;}
     font-weight: 100;
     line-height:50px;
     color:#E0E0E0;
-    margin-top: .6%;
+    margin-top: 1.4%;
     margin-left: 1%;
     font-family: 'Roboto', sans-serif;
   }
