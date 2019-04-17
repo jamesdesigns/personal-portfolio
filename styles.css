@@ -8,6 +8,10 @@ body {
      margin: 0 auto;
 }
 
+.mylogo:hover {
+  margin-top: 10px;
+}
+
 hr {
   border: 1px dotted #ccc;
 }
