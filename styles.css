@@ -37,6 +37,15 @@ p {
   font-size: 8em;
   color: #fff;
   margin-left: 2.5%;
+  margin-top:3%;
+}
+
+#projects {
+  display:block;
+  float:right;
+  width: 200px;
+  margin-top:100px;
+  margin-right: 3%;
 }
 #description {
   font-size: .85em;
