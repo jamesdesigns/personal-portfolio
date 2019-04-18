@@ -43,9 +43,19 @@ p {
 #projects {
   display:block;
   float:right;
-  width: 200px;
-  margin-top:100px;
+  width: 300px;
+  margin-top:350px;
   margin-right: 3%;
+}
+.repos {
+  margin-left: 13%;
+  font-weight: 900;
+}
+
+#projects ul li {
+  list-style-type: none;
+  font-weight: 100;
+  color: #ccc;
 }
 #description {
   font-size: .85em;
