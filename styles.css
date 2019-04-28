@@ -360,6 +360,8 @@ input.invalid {
 /* Hide all steps by default: */
 .tab {
   display: none;
+  font-size: 180%;
+  font-family: sans-serif;
 }
 
 button {
