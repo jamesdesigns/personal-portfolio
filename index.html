@@ -42,6 +42,7 @@
           <!-- <div id="description">Any chance I get I enjoy working on new and creative projects. I am finding new ways to push my boundaries of web design and development.</div> -->
 
         </div>
+        <div id="commits"></div>
       </section>
 <section>   
     <div id="name">
@@ -153,6 +154,8 @@ fetch('https://api.github.com/users/jamesdesigns/repos')
    }
    var amount = document.getElementById("stats").innerText = data.length;
    console.log(repos);
+
+   var commits = document.getElementById("commits").innerHTML = data[0].statuses_url;
     // console.log('data is', data)
   });
 </script>
