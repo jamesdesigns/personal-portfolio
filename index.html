@@ -148,7 +148,7 @@ fetch('https://api.github.com/users/jamesdesigns/repos')
     // Here's a list of repos!
     var text = " ";
    for (var i = 0; i < data.length; i++) { 
-    var repos = document.getElementById("projects").innerText = text += data[i].name;
+    var repos = document.getElementById("projects").innerHTML = text += data[i].name + `<br>`;
   //  text += data[i].name + "<br>";
    }
    var amount = document.getElementById("stats").innerText = data.length;
