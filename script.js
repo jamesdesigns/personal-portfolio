@@ -8,12 +8,7 @@ TweenMax.staggerTo(".btn", 0.5, {opacity:0, y:-100, ease:Back.easeIn}, 0.1);
 TweenLite.to(".logo", 2, { ease: "hop", scale:1, rotation:1080 });
 
 
-fetch('https://api.github.com/users/jamesdesigns/repos')
-  .then(response => response.json())
-  .then(data => {
-    // Here's a list of repos!
-    console.log(data)
-  });
+
 
 
 
