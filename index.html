@@ -28,16 +28,17 @@
       </div>
       <section id="profile">
           <!-- <img class="home" src="JamesHooper.png" alt="James Hooper"> -->
-          <div id="stats">57<span style="font-size:13%; color:#a8a8a8;">REPOS</span></div>
-          <div id="projects"><p class="repos">REPOSITORIES:</p>
-          <ul>
+          <div id="stats"></div><p style="font-size:13%; color:#a8a8a8;">REPOS</p>
+          <div id="projects">
+              <!-- <p class="repos">REPOSITORIES:</p> -->
+          <!-- <ul>
             <li><a class="gitlink" href="#" target="_blank">james-graphql-server</a></li>
             <li><a class="gitlink" href="#" target="_blank">personal-portfolio</a></li>
             <li><a class="gitlink" href="#" target="_blank">autostats-app</a></li>
             <li><a class="gitlink" href="#" target="_blank">css-frameworks</a></li>
             <li><a class="gitlink" href="#" target="_blank">spacex-app</a></li>
             <li><a class="gitlink" href="#" target="_blank">ecommerce-template</a></li>
-          </ul>
+          </ul> -->
           <!-- <div id="description">Any chance I get I enjoy working on new and creative projects. I am finding new ways to push my boundaries of web design and development.</div> -->
 
         </div>
@@ -140,5 +141,20 @@ function closeNav() {
        
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script> -->
 <script src="script.js"></script>
+<script>
+fetch('https://api.github.com/users/jamesdesigns/repos')
+  .then(response => response.json())
+  .then(data => {
+    // Here's a list of repos!
+    var text = " ";
+   for (var i = 0; i < data.length; i++) { 
+    var repos = document.getElementById("projects").innerText = text += data[i].name;
+  //  text += data[i].name + "<br>";
+   }
+   var amount = document.getElementById("stats").innerText = data.length;
+   console.log(repos);
+    // console.log('data is', data)
+  });
+</script>
 </body>
 </html>
