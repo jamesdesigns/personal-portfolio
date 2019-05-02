@@ -10,7 +10,7 @@
 <body onload="animateText()">
 <header>
     <!-- <img class="logo" src="icon.png" width="40" height="40" alt="Artist James Hooper Logo" /> -->
-    <img class="logo" src="jameshooper-logo.jpg" alt="Artist James Hooper Logo" /></a>
+    <img class="logo" src="logo.png" alt="Artist James Hooper Logo" /></a>
 
     <div id="profession"></div>
 </header> 
@@ -32,14 +32,6 @@
           <div id="myRepos"><p>REPOS</p></div>
           <div id="projects">
               <!-- <p class="repos">REPOSITORIES:</p> -->
-          <!-- <ul>
-            <li><a class="gitlink" href="#" target="_blank">james-graphql-server</a></li>
-            <li><a class="gitlink" href="#" target="_blank">personal-portfolio</a></li>
-            <li><a class="gitlink" href="#" target="_blank">autostats-app</a></li>
-            <li><a class="gitlink" href="#" target="_blank">css-frameworks</a></li>
-            <li><a class="gitlink" href="#" target="_blank">spacex-app</a></li>
-            <li><a class="gitlink" href="#" target="_blank">ecommerce-template</a></li>
-          </ul> -->
           <!-- <div id="description">Any chance I get I enjoy working on new and creative projects. I am finding new ways to push my boundaries of web design and development.</div> -->
 
         </div>
@@ -155,10 +147,11 @@ fetch('https://api.github.com/users/jamesdesigns/repos')
    }
    var amount = document.getElementById("stats").innerText = data.length;
    console.log(repos);
-
-   var commits = document.getElementById("commits").innerHTML = data[0].statuses_url;
-    // console.log('data is', data)
+  
+    var commits = document.getElementById("commits").innerHTML = data[25].commits_url + `<br>`;
   });
+
+  
 </script>
 </body>
 </html>

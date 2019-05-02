@@ -7,6 +7,10 @@ body {
      background-position: center; 
      margin: 0 auto;
 }
+.logo {
+  width: 5%;
+  height: 55px;
+}
 
 .mylogo {
   margin-top: 1px;
@@ -47,6 +51,14 @@ p {
   margin-top:-50px;
   margin-right: 3%;
 }
+#projects:hover {
+  background: linear-gradient(to right,#ff8a00,#da1b60);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
 .repos {
   margin-left: 13%;
   font-weight: 900;
