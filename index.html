@@ -148,10 +148,20 @@ fetch('https://api.github.com/users/jamesdesigns/repos')
    var amount = document.getElementById("stats").innerText = data.length;
    console.log(repos);
   
-    var commits = document.getElementById("commits").innerHTML = data[25].commits_url + `<br>`;
+    // var commits = document.getElementById("commits").innerHTML = data[25].commits_url + `<br>`;
   });
 
-  
+  fetch('https://api.github.com/repos/jamesdesigns/personal-portfolio/stats/punch_card')
+    .then(response => response.json())
+    .then(mydata => {
+      var mytext = " ";
+
+      for (var a = 0; a < mydata.length; a++) {
+        document.getElementById("commits").innerHTML = mytext += mydata[a] + `<br>`;
+      }
+    })
+
+
 </script>
 </body>
 </html>
