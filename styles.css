@@ -77,6 +77,10 @@ p {
   color: #ccc;
 }
 
+#commits {
+  margin-left: 3%;
+}
+
 a.gitlink {
   text-decoration: none;
   color: gray;
