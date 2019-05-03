@@ -151,14 +151,24 @@ fetch('https://api.github.com/users/jamesdesigns/repos')
     // var commits = document.getElementById("commits").innerHTML = data[25].commits_url + `<br>`;
   });
 
-  fetch('https://api.github.com/repos/jamesdesigns/personal-portfolio/stats/punch_card')
+  // fetch('https://api.github.com/repos/jamesdesigns/personal-portfolio/stats/punch_card')
+  // fetch('https://api.github.com/repos/jamesdesigns/personal-portfolio/stats/participation')
+  fetch('https://api.github.com/repos/jamesdesigns/personal-portfolio/stats/contributors')
     .then(response => response.json())
-    .then(mydata => {
+    .then(commits => {
       var mytext = " ";
+      // for (var a = 0; a < commits.length; a++) {
+      //   document.getElementById("commits").innerHTML = mytext += commits[a] + `<br>`;
+        
+      // }
+      document.getElementById("commits").innerHTML = `<p>TOTAL COMMITS</p>` + JSON.stringify(commits[0].total);
 
-      for (var a = 0; a < mydata.length; a++) {
-        document.getElementById("commits").innerHTML = mytext += mydata[a] + `<br>`;
-      }
+
+      // let popped = commits.pop()
+      //   console.log(popped)
+      // console.log(commits);
+console.log(commits);
+
     })
 
 
