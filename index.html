@@ -35,6 +35,7 @@
           <!-- <div id="description">Any chance I get I enjoy working on new and creative projects. I am finding new ways to push my boundaries of web design and development.</div> -->
 
         </div>
+        <p class="totalCommits">Total Commits:</p>
         <div id="commits"></div>
       </section>
 <section>   
@@ -136,6 +137,8 @@ function closeNav() {
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script> -->
 <script src="script.js"></script>
 <script>
+
+
 fetch('https://api.github.com/users/jamesdesigns/repos')
   .then(response => response.json())
   .then(data => {
@@ -151,25 +154,39 @@ fetch('https://api.github.com/users/jamesdesigns/repos')
     // var commits = document.getElementById("commits").innerHTML = data[25].commits_url + `<br>`;
   });
 
+
+
   // fetch('https://api.github.com/repos/jamesdesigns/personal-portfolio/stats/punch_card')
   // fetch('https://api.github.com/repos/jamesdesigns/personal-portfolio/stats/participation')
+
+
+
   fetch('https://api.github.com/repos/jamesdesigns/personal-portfolio/stats/contributors')
     .then(response => response.json())
     .then(commits => {
-      var mytext = " ";
-      // for (var a = 0; a < commits.length; a++) {
-      //   document.getElementById("commits").innerHTML = mytext += commits[a] + `<br>`;
-        
-      // }
-      document.getElementById("commits").innerHTML = `<p>TOTAL COMMITS</p>` + JSON.stringify(commits[0].total);
+      var totalCommits = document.getElementById("commits").innerHTML = JSON.stringify(commits[0].total);
+      console.log(commits);
+
+          fetch('https://api.github.com/repos/jamesdesigns/Node-Project/stats/contributors')
+        .then(response => response.json())
+        .then(commits => {
+          var totalCommits2= document.getElementById("commits").innerHTML = JSON.stringify(commits[0].total);
+          console.log(commits);
+
+          document.getElementById("commits").innerHTML = parseInt(totalCommits) + parseInt(totalCommits2);
+          console.log(parseInt(totalCommits) + parseInt(totalCommits2));
+        })
+
+    });
 
 
-      // let popped = commits.pop()
-      //   console.log(popped)
-      // console.log(commits);
-console.log(commits);
+    // fetch('https://api.github.com/repos/jamesdesigns/Node-Project/stats/contributors')
+    // .then(response => response.json())
+    // .then(commits => {
+    //   var totalCommits2= document.getElementById("commits").innerHTML = JSON.stringify(commits[0].total);
+    //   console.log(commits);
+    // })
 
-    })
 
 
 </script>
