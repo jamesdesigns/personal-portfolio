@@ -80,6 +80,9 @@ p {
 #commits {
   margin-left: 3%;
 }
+.totalCommits {
+  margin-left: 3%;
+}
 
 a.gitlink {
   text-decoration: none;
