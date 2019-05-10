@@ -30,13 +30,13 @@
           <!-- <img class="home" src="JamesHooper.png" alt="James Hooper"> -->
           <div id="stats"></div>
           <div id="myRepos"><p>REPOS</p></div>
-          <div id="projects">
-              <!-- <p class="repos">REPOSITORIES:</p> -->
-          <!-- <div id="description">Any chance I get I enjoy working on new and creative projects. I am finding new ways to push my boundaries of web design and development.</div> -->
 
+          <div id="projects"></div>
+
+        <div class="container-commits">
+          <p class="totalCommits">Total Commits:</p>
+          <div id="commits"></div>
         </div>
-        <p class="totalCommits">Total Commits:</p>
-        <div id="commits"></div>
       </section>
 <section>   
     <div id="name">
@@ -175,20 +175,28 @@ fetch('https://api.github.com/users/jamesdesigns/repos')
 
           document.getElementById("commits").innerHTML = parseInt(totalCommits) + parseInt(totalCommits2);
           console.log(parseInt(totalCommits) + parseInt(totalCommits2));
-        })
 
-    });
+                    fetch('https://api.github.com/repos/jamesdesigns/Node-crud-server/stats/contributors')
+                  .then(response => response.json())
+                  .then(commits => {
+                    var totalCommits3= document.getElementById("commits").innerHTML = JSON.stringify(commits[0].total);
+                    console.log(commits);
 
+                    document.getElementById("commits").innerHTML = parseInt(totalCommits) + parseInt(totalCommits2) + parseInt(totalCommits3);
+                    console.log(parseInt(totalCommits) + parseInt(totalCommits2) + parseInt(totalCommits3));
 
-    // fetch('https://api.github.com/repos/jamesdesigns/Node-Project/stats/contributors')
-    // .then(response => response.json())
-    // .then(commits => {
-    //   var totalCommits2= document.getElementById("commits").innerHTML = JSON.stringify(commits[0].total);
-    //   console.log(commits);
-    // })
+                            fetch('https://api.github.com/repos/jamesdesigns/jhooper-final-vue/stats/contributors')
+                          .then(response => response.json())
+                          .then(commits => {
+                            var totalCommits4= document.getElementById("commits").innerHTML = JSON.stringify(commits[0].total);
+                            console.log(commits);
 
-
-
+                            document.getElementById("commits").innerHTML = parseInt(totalCommits) + parseInt(totalCommits2) + parseInt(totalCommits3) + parseInt(totalCommits4);
+                            console.log(parseInt(totalCommits) + parseInt(totalCommits2) + parseInt(totalCommits3) + parseInt(totalCommits4));
+                          });
+                    });
+               });
+          });
 </script>
 </body>
 </html>
