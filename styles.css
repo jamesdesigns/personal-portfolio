@@ -369,7 +369,7 @@ h1 {
 
 /* Contact form */
 #regForm {
-  margin: 100px auto;
+  margin: 200px auto;
   font-family: Raleway;
   padding: 40px;
   width: 70%;
@@ -392,6 +392,7 @@ textarea {
   width: 90%;
   height: 200px;
   margin-bottom: 5%;
+  margin-top: 2%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
 }
@@ -444,7 +445,7 @@ button:hover {
 
 /* Mark the steps that are finished and valid: */
 .step.finish {
-  background-color: #4CAF50;
+  background-color: #ea1489;
 }
 
 /* End of Contact form */
