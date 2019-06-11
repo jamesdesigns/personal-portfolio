@@ -10,7 +10,7 @@ body {
 }
 .logo {
 
-  height: 55px;
+  height: 70px;
 }
 .subHeadLogo{
   color: #fff; 
@@ -46,7 +46,7 @@ p {
 #stats {
   font-size: 8em;
   color: #fff;
-  margin-left: 2.5%;
+  margin-left: 9.5%;
   /* margin-top:3%; */
   padding-top: 16%;
 }
@@ -58,7 +58,7 @@ p {
   font-weight: 100;
   color: #ccc;
   width: 300px; 
-  height: 290px; 
+  height: 110px; 
   /* height: auto; */
   overflow: auto; 
   text-align:justify; 
@@ -82,8 +82,9 @@ p {
 #myRepos p {
   font-size: 2.5rem;
   font-weight: 900;
-  margin-top:-65px;
-  margin-left: 180px;
+  margin-top:-25px;
+  margin-left: 148px;
+  color: #828282;
 }
 
 
@@ -93,8 +94,11 @@ p {
   margin-left: 3%;
   font-size: 300%;
 }
-.totalCommits {
-  margin-left: 3%;
+.currentProjects {
+  margin-left: 10%;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
 }
 
 a.gitlink {
@@ -136,6 +140,7 @@ section#profile {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .home {
 margin-left: 7%;
 z-index: -10000;
@@ -159,15 +164,21 @@ clear: both;
     margin-left: 2%;
 }
 
-#profession{
+#profession {
     font-size:23px;
     font-weight: 100;
     line-height:50px;
-    color: #828282;
-    margin-top: -20px;
-    margin-left: 1%;
+    margin-top: -15px;
+    margin-left: 0.5%;
     font-family: 'Roboto', sans-serif;
   }
+
+ #profession p {
+   color: #989898;
+ } 
+ #profession .subHeadLogo {
+   color: #fff;
+ }
  /* #profession:hover {
   background: linear-gradient(to right,#ff8a00,#da1b60);
   -webkit-background-clip: text;
