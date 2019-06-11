@@ -6,10 +6,16 @@ body {
      background-attachment: fixed;
      background-position: center; 
      margin: 0 auto;
+     height:100%;
 }
 .logo {
 
   height: 55px;
+}
+.subHeadLogo{
+  color: #fff; 
+  font-size: 80%;
+  margin-top: -95px;
 }
 
 .mylogo {
@@ -145,7 +151,7 @@ header {
 }
 
 #specifics {
-  float: left;
+clear: both;
 }
 
 .logo {
@@ -157,12 +163,12 @@ header {
     font-size:23px;
     font-weight: 100;
     line-height:50px;
-    color:gray;
-    margin-top: .5%;
+    color: #828282;
+    margin-top: -20px;
     margin-left: 1%;
     font-family: 'Roboto', sans-serif;
   }
- #profession:hover {
+ /* #profession:hover {
   background: linear-gradient(to right,#ff8a00,#da1b60);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -170,7 +176,7 @@ header {
   box-decoration-break: clone;
   z-index: 1000;
 
- } 
+ }  */
 
 h1,h2,h3,h4,h5,h6 {
     width: 1200px;
@@ -196,6 +202,18 @@ h1 {
 }
 #container:hover {
     
+}
+/* HOME FOOTER */
+.edge {
+  width: 100%;
+}
+
+
+.homeFtr {
+  background: #ff8a00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #da1b60, #ff8a00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #da1b60, #ff8a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 500px;
 }
 
 #name {
