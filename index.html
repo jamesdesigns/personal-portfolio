@@ -6,6 +6,7 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
 </head>
 <body onload="animateText()">
 <header>
@@ -76,8 +77,12 @@
 <img class="edge" src="../artistjameshooper/black-cut-edge.png" alt="">
   </div>
   <div class="bottomFtr">
-
+    <img src="../artistjameshooper/twitter-icon.png" width="50" height="50" alt="twitter" />
+    <img src="../artistjameshooper/facebook-icon.png" width="50" height="50" alt="facebook" />
+    <img src="../artistjameshooper/instagram-icon.png" width="50" height="50" alt="instagram" />
+    <p>@ 2019 ArtistJamesHooper. All Rights Reserved.</p>
   </div>
+
 </footer>
 
 <script>
@@ -102,7 +107,7 @@ function closeNav() {
           }
         }
         </script> -->
-        <script>
+        <!-- <script>
             window.onscroll = function() {myFunction()};
             
             var navbar = document.getElementById("myNav");
@@ -115,7 +120,7 @@ function closeNav() {
                 navbar.classList.remove("sticky");
               }
             }
-            </script>
+            </script> -->
        
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script> -->
 <script src="script.js"></script>
@@ -181,5 +186,19 @@ fetch('https://api.github.com/users/jamesdesigns/repos')
   //              });
   //         });
 </script>
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("myNav");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
 </body>
 </html>
