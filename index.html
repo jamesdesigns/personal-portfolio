@@ -36,14 +36,26 @@
           </div>
           <div id="myRepos"><p>Projects</p></div>
 
-          <div id="projects"></div>
+          <!-- <div id="projects"></div> -->
+          <div id="CTA">
+            <button class="hireMe">HIRE ME</button>
+            <button class="freeQuote">FREE QUOTE</button>
+          </div>
 
           <div class="container-commits">
-            <p class="currentProjects">GitHub Projects</p>
+            <p class="currentProjects">Current Projects</p>
             
-            <div id="commits"></div>
+            <div id="commits">
+              <ul>
+                <li><a href="https://github.com/jamesdesigns/ns-mapbox-functioning" target="_blank">ns-mapbox-functioning</a></li>
+                <li><a href="https://github.com/jamesdesigns/personal-portfolio" target="_blank">personal-portfolio</a></li>
+                <li><a href="https://github.com/jamesdesigns/Smith-Website" target="_blank">Smith-Website</a></li>
+                <li><a href="https://github.com/jamesdesigns/Powerball-Simulator/tree/master/POWERBALL" target="_blank">Powerball-Simulator</a></li>
+                <li><a href="https://github.com/jamesdesigns/adopt-a-pet" target="_blank">adopt-a-pet</a></li>
+              </ul>
+            </div>
           </div>
-          <div id="projects"></div>
+          <!-- <div id="projects"></div> -->
       </section>
 <section>   
     <div id="name">
@@ -114,11 +126,10 @@ fetch('https://api.github.com/users/jamesdesigns/repos')
   .then(response => response.json())
   .then(data => {
     // Here's a list of repos!
-    var text = " ";
-   for (var i = 0; i < data.length; i++) { 
-    var repos = document.getElementById("projects").innerHTML = text += data[i].name + `<br>`;
-  //  text += data[i].name + "<br>";
-   }
+  //   var text = " ";
+  //  for (var i = 0; i < data.length; i++) { 
+  //   var repos = document.getElementById("projects").innerHTML = text += data[i].name + `<br>`;
+  //  }
    var amount = document.getElementById("stats").innerText = data.length;
    console.log(repos);
   
