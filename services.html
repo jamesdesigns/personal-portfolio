@@ -5,6 +5,8 @@
 <link href="styles.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body onload="animateText()">
 <header>
@@ -15,10 +17,22 @@
     </div>
 
 
-    <div id="profession"></div>
+    <!-- <div id="profession"></div> -->
+    <div class="topnav" id="myTopnav">
+        <div class="header-right">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html" class="active">Services</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          </div>
+        </div>
 
 </header> 
-<span style="font-size:30px;cursor:pointer;float:right;margin-right:2%;margin-top:-3%;" onclick="openNav()">&#9776;</span>
+<!-- <span style="font-size:30px;cursor:pointer;float:right;margin-right:2%;margin-top:-3%;" onclick="openNav()">&#9776;</span>
 
 <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -29,14 +43,14 @@
           <a href="portfolio.html">Portfolio</a>
           <a href="contact.html">Contact</a>
         </div>
-      </div>
+      </div> -->
 <section>
   <h1>Services</h1>
 </section>
 
 
 
-      <script>
+      <!-- <script>
         function openNav() {
           document.getElementById("myNav").style.width = "100%";
         }
@@ -44,7 +58,7 @@
         function closeNav() {
           document.getElementById("myNav").style.width = "0%";
         }
-        </script>
+        </script> -->
         <!-- <script>
                 var i = 0;
                 var txt = 'James Hooper';
@@ -58,6 +72,17 @@
                   }
                 }
                 </script> -->
+
+                <script>
+                    function myFunction() {
+                      var x = document.getElementById("myTopnav");
+                      if (x.className === "topnav") {
+                        x.className += " responsive";
+                      } else {
+                        x.className = "topnav";
+                      }
+                    }
+                    </script>        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
         <script src="script.js"></script>
         </body>
