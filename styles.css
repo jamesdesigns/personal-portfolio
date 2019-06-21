@@ -80,7 +80,7 @@ p {
   font-weight: 900;
 }
 #myRepos p {
-  font-size: 3em;
+  font-size: 2.75em;
   font-weight: bold;
   margin-top:-25px;
   margin-left: 15.5%;
@@ -91,8 +91,10 @@ p {
 #commits ul {
   list-style-type: none;
   margin-left: 13.25%;
-  margin-top:-1%;
+  margin-top:-2.25%;
   margin-bottom:5%;
+  font-size: 115%;
+  line-height: 26px;
 }
 #commits ul li a {
   text-decoration: none;
@@ -104,7 +106,7 @@ p {
 }
 
 .myName {
-  margin-top:4.5%;
+  margin-top:6%;
   font-size: 12.05em;
 }
 
@@ -138,7 +140,7 @@ p {
 
 .currentProjects {
   margin-left: 15.5%;
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: bold;
   color: #fff;
 }
@@ -383,6 +385,8 @@ h1 {
     margin-left: 50px;
     padding: .25rem;
     /* padding-top: 5%; */
+    font-size: 120%;
+    width: 34%;
   }
 
   /* NEW TABLE  */
