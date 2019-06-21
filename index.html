@@ -6,7 +6,7 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body onload="animateText()">
 <header>
@@ -19,8 +19,8 @@
     <!-- <div id="specifics">Web Design & Development</div> -->
 
 
-    <span style="font-size:30px;cursor:pointer;position:absolute;top:0; right:0;margin-right:2%;" onclick="openNav()">&#9776;</span>
-
+    <!--  ORIGINAL NAVIGATION MENU -->
+<!-- <span style="font-size:30px;cursor:pointer;position:absolute;top:0; right:0;margin-right:2%;" onclick="openNav()">&#9776;</span>
 <div id="myNav" class="overlay">
       <span style="font-size:30px;cursor:pointer;float:right;margin-right:2%;" onclick="openNav()">&#9776;</span>
 
@@ -32,7 +32,25 @@
           <a href="portfolio.html">Portfolio</a>
           <a href="contact.html">Contact</a>
         </div>
+</div> -->
+<!--  END OF ORIGINAL NAVIGATION MENU -->
+
+<div class="topnav" id="myTopnav">
+    <div class="header-right">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
       </div>
+    </div>
+
+
+
+
 </header> 
 
 
@@ -91,7 +109,8 @@
 
 </footer>
 
-<script>
+<!-- This BELONGS TO ORIGINAL NAVIGATION MENU -->
+<!-- <script>
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
 }
@@ -99,7 +118,10 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
-</script>
+</script> -->
+<!-- END of ORIGINAL NAVIGATION MENU SCRIPT -->
+
+
 <!-- <script>
         var i = 0;
         var txt = 'James Hooper';
@@ -192,7 +214,7 @@ fetch('https://api.github.com/users/jamesdesigns/repos')
   //              });
   //         });
 </script>
-<script>
+<!-- <script>
   window.onscroll = function() {myFunction()};
   
   var navbar = document.getElementById("myNav");
@@ -205,6 +227,19 @@ fetch('https://api.github.com/users/jamesdesigns/repos')
       navbar.classList.remove("sticky");
     }
   }
-  </script>
+  </script> -->
+
+  <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+
+
 </body>
 </html>
