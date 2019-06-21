@@ -83,6 +83,8 @@ body {
   float:left;
   margin-left: 32.5%;
 }
+
+
 }
 
 
@@ -647,7 +649,7 @@ button:hover {
 
 /* End of Contact form */
   
-  @media screen and (max-height: 450px) {
+  /* @media screen and (max-height: 450px) {
     .box {
       display: flex;
       flex-direction: column;
@@ -659,4 +661,14 @@ button:hover {
     top: 15px;
     right: 35px;
     }
+  } */
+
+  @media screen and (max-width: 850px) {
+    .myName {
+      font-size: 5em;
+      margin-left: -39.5%;
+      padding: 50px 0;
+    }
+  
+  
   }
