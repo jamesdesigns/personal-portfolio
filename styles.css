@@ -44,7 +44,7 @@ p {
   color: #ccc;
 }
 #stats {
-  font-size: 8em;
+  font-size: 10em;
   color: #fff;
   margin-left: 15%;
   /* margin-top:3%; */
@@ -80,7 +80,7 @@ p {
   font-weight: 900;
 }
 #myRepos p {
-  font-size: 2.5rem;
+  font-size: 3em;
   font-weight: bold;
   margin-top:-25px;
   margin-left: 15.5%;
@@ -92,6 +92,7 @@ p {
   list-style-type: none;
   margin-left: 13.25%;
   margin-top:-1%;
+  margin-bottom:5%;
 }
 #commits ul li a {
   text-decoration: none;
@@ -102,12 +103,17 @@ p {
   color: #fff;
 }
 
+.myName {
+  margin-top:4.5%;
+  font-size: 12.05em;
+}
+
 #CTA {
   width: 200px;
   height: 100px;
   float:right;
   margin-right: 18%;
-  margin-top:-8%;
+  margin-top:-9%;
   
 }
 #CTA .hireMe {
@@ -132,7 +138,7 @@ p {
 
 .currentProjects {
   margin-left: 15.5%;
-  font-size: 2rem;
+  font-size: 3em;
   font-weight: bold;
   color: #fff;
 }
@@ -238,7 +244,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  font-size: 11.5vw;
+  font-size: 11.5em;
   margin-bottom: -80px;
   margin-top:-50px;
   margin: 0 auto;
@@ -297,7 +303,7 @@ h1 {
 }
 
 #name {
-    font-size: 8rem;
+    font-size: 1em;
     display: block;
     /* margin-left: 16%; */
 
@@ -362,7 +368,7 @@ h1 {
   }
   
   .box {
-    padding: .5rem;
+    padding: .5em;
     height: 300px;
     color: #f0f0f0;
     background: #000;
