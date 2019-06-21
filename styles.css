@@ -46,9 +46,9 @@ p {
 #stats {
   font-size: 8em;
   color: #fff;
-  margin-left: 9.5%;
+  margin-left: 15%;
   /* margin-top:3%; */
-  padding-top: 16%;
+  padding-top: 18%;
 }
 
 #projects {
@@ -83,14 +83,14 @@ p {
   font-size: 2.5rem;
   font-weight: bold;
   margin-top:-25px;
-  margin-left: 163px;
+  margin-left: 15.5%;
   color: #828282;
 }
 
 
 #commits ul {
   list-style-type: none;
-  margin-left: 7.75%;
+  margin-left: 13.25%;
   margin-top:-1%;
 }
 #commits ul li a {
@@ -107,7 +107,7 @@ p {
   height: 100px;
   float:right;
   margin-right: 18%;
-  margin-top:-5%;
+  margin-top:-8%;
   
 }
 #CTA .hireMe {
@@ -131,7 +131,7 @@ p {
 }
 
 .currentProjects {
-  margin-left: 10%;
+  margin-left: 15.5%;
   font-size: 2rem;
   font-weight: bold;
   color: #fff;
