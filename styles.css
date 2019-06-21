@@ -278,12 +278,23 @@ header {
   display: flex; 
   flex-direction: row;
   height: 90px;
-
   background-color: #000;
-  /* position: fixed; */
+  position: fixed;
   right: 0;
   left: 0;
   z-index: 999;
+}
+
+.contact-header { 
+  display: flex; 
+  flex-direction: row;
+  height: 90px;
+  background-color: #000;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin-top:-200px;
 }
 
 #specifics {
