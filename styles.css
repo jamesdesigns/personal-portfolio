@@ -9,6 +9,25 @@ body {
      height:100%;
 }
 
+.space {
+  display: block;
+  width: 100%;
+  height: 180px;
+}
+
+hr.topLine {
+  border-top: 1px solid white;
+  margin-top:100px;
+  z-index: 1000;
+  position: relative;
+  top:100;
+}
+
+.jamesIntro {
+  margin-top: -80px;
+  font-size: 11.5em;
+}
+
 
 /* NEW MENU -----------------------  */
 .topnav {
@@ -118,6 +137,9 @@ overflow: hidden;
 .sticky + #name {
   padding-top: 10px;
 }
+
+
+
 
 hr {
   border: 1px dotted #ccc;
