@@ -503,19 +503,34 @@ h1 {
   text-align:center;
   cursor: pointer;
   padding: 25px 80px;
-  margin: 25px 30px;
+  /* margin: 25px 30px; */
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
   outline: none;
   position: relative;
   background: #ec008c;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: -webkit-linear-gradient(to right, #fc6767, #ec008c); 
+  background: linear-gradient(to right, #fc6767, #ec008c);  */
 
   border: solid 1px transparent;
   border-radius:10px;
   -webkit-font-smoothing: antialiased;
+}
+
+
+
+.social img:hover{
+  animation: rotation .5s linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 
