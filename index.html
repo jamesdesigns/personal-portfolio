@@ -163,8 +163,8 @@ fetch('https://api.github.com/users/jamesdesigns/repos')
   //  for (var i = 0; i < data.length; i++) { 
   //   var repos = document.getElementById("projects").innerHTML = text += data[i].name + `<br>`;
   //  }
-   var amount = document.getElementById("stats").innerText = data.length;
-   console.log(repos);
+   var amount = document.getElementById("stats").innerHTML = data.length;
+   console.log(amount);
   
     // var commits = document.getElementById("commits").innerHTML = data[25].commits_url + `<br>`;
   });
