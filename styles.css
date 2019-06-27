@@ -43,6 +43,19 @@ hr.topLine {
   text-align: left;
 }
 
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+  display: block;
+  margin: 0 auto;
+  margin-left: 10%;
+	width: 80%;
+	height: 600px;
+}
 
 /* NEW MENU -----------------------  */
 .topnav {
