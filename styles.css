@@ -92,7 +92,7 @@ hr.topLine {
   display: none;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 880px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -103,7 +103,7 @@ hr.topLine {
 
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 880px) {
   .topnav.responsive {
     position: absolute;
     height:590px;
@@ -127,8 +127,9 @@ hr.topLine {
     font-weight: bold;
   }
     .header-right {
-  float:left;
+  /* float:left; */
   margin-left: 32.5%;
+  margin-right: 30%;
 }
 
 
