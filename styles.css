@@ -392,6 +392,85 @@ clear: both;
 
  }  */
 
+ /* About Me Skills and Education  */
+ .totalSkills {
+   display: flex;
+   flex-wrap: nowrap;
+   margin-top:-150px;
+ }
+
+ .education {
+   border: 1px solid #fff;
+   border-radius: 10px;
+   width:20%;
+   margin-left: 10%;
+ }
+
+ .education h2 {
+   margin-left: 13%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2rem;
+   color: #fff;
+ }
+
+ 
+ .education ul { 
+   margin-top: -15px;
+   /* padding-bottom: 4%; */
+  }
+
+ .education ul li {
+   list-style-type: none;
+   line-height: 1.4;
+ }
+
+ .education ul li:nth-child(1), ul li:nth-child(4) {
+   color: #989898;
+ }
+
+ .coding {
+  width:30%;
+  margin-left: 5%;
+ }
+
+ .coding h2 {
+  margin-left: 13%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.coding ul {
+  margin-left: 10%;
+}
+
+.coding ul li {
+  color: #989898; 
+}
+
+.design {
+  width:30%;
+  margin-left: -5%;
+ }
+
+.design h2 {
+  margin-left: 13%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.design ul {
+  margin-left: 10%;
+}
+
+.design ul li {
+  color: #989898; 
+}
+
+
+
+
 h1,h2,h3,h4,h5,h6 {
     width: 1200px;
     color: #ccc;
