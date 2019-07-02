@@ -242,7 +242,7 @@ p {
 }
 
 .myName {
-  margin-top:6%;
+  margin-top:7%;
   font-size: 12.05em;
 }
 
@@ -586,7 +586,7 @@ h1 {
 #container:hover {
     
 }
-/* HOME FOOTER */
+/* HOME8FOOTER */
 .edge {
   width: 100%;
 }
@@ -599,12 +599,29 @@ h1 {
   height: auto;
 }
 
+.hurry {
+  font-size:7rem;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin-top:-200px;
+}
+.callNow {
+  font-size:13rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 15%;
+  margin-top: -100px;
+}
+
 .bottomFtr {
   width: 100%;
   height: 100px;
   background-color: #fff;
   color: #000;
   margin: 0 auto;
+  margin-top: -208px;
 }
 
 .bottomFtr p {
@@ -814,6 +831,7 @@ h1 {
   font-family: Raleway;
   padding: 40px;
   width: 70%;
+  height: 200px;
   min-width: 300px;
 }
 
