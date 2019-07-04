@@ -590,7 +590,7 @@ h1 {
 #container:hover {
     
 }
-/* HOME8FOOTER */
+/* HOMEFOOTER */
 .edge {
   width: 100%;
 }
@@ -604,19 +604,24 @@ h1 {
 }
 
 .hurry {
-  font-size:7rem;
+  display: block;
+  width: 100%;
+  /* font-size:7rem; */
+  font-size: 7.05vw;
   font-weight: bold;
   color: #000;
   text-align: center;
   margin-top:-200px;
 }
 .callNow {
-  font-size:13rem;
+  /* font-size:13rem; */
+  font-size: 12.05vw;
   font-weight: bold;
   color: #fff;
   text-align: center;
   padding-bottom: 15%;
   margin-top: -100px;
+  margin-bottom: 2px;
 }
 
 .bottomFtr {
@@ -634,7 +639,7 @@ h1 {
   background-color: #fff;
   color: #000;
   margin: 0 auto;
-  margin-top: -208px;
+  margin-top: -2px;
 }
 
 .bottomFtr p {
@@ -715,6 +720,15 @@ padding-bottom: 10%;
   background: linear-gradient(to left, #da1b60, #ff8a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   border-radius: 8px;
+}
+
+
+/* Contact Footer */
+.contactFtr {
+  background: #ff8a00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #da1b60, #ff8a00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #da1b60, #ff8a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: auto;
 }
 
 /* Responsive Menu */
@@ -989,7 +1003,32 @@ button:hover {
       padding: 50px 0;
       margin-bottom:60px;
     }
+
+    .callNow {
+      font-size: 5em;
+      margin-top: -30px;
+    }
+    .hurry {
+      padding-top: 80px;
+    }
+
+    .bottomFtr {
+      margin-top: 1.55%;
+      /* margin-right: 1%; */
+      /* margin-left: 2%; */
+      margin: 0 auto;
+    }
   
+    .edgeContact {
+      width: 100%;
+      height: 530px;
+      margin-top: -125px;
+    }
+
+    .contactFtr {
+      height: 600px;
+    }
+    
   
   }
 
