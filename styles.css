@@ -215,11 +215,26 @@ p {
   font-weight: 900;
 }
 #myRepos p {
-  font-size: 2.75em;
+  /* font-size: 2.75em;
   font-weight: bold;
   margin-top:-25px;
   margin-left: 15.5%;
-  color: #828282;
+  color: #828282; */
+}
+
+#myRepos .todaysDiscount {
+  color: #fff;
+  font-size: 9vw;
+  font-weight: bold;
+  margin-left: 15%;
+  margin-top: -30px;
+}
+
+.todayOnly {
+  font-weight: bold;
+  margin-top: -170px;
+  margin-left: 15.5%;
+  font-size: 3vw;
 }
 
 
