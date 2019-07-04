@@ -106,6 +106,7 @@ hr.topLine {
     float: right;
     display: block;
     padding-right: 0;
+    margin-top: -47px; /* this helps show the menu hamburger icon */
   }
 
 
