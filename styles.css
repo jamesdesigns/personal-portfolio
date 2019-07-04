@@ -1101,6 +1101,11 @@ button:hover {
 
   .education {
     width: 68%;
+    padding-bottom: 5%;
+}
+
+.education ul {
+  margin-left: 5%;
 }
 
 .coding {
@@ -1112,6 +1117,20 @@ button:hover {
 .design {
   width: 68%;
   margin-left: 15%;
+}
+
+.whyHireMe {
+  /* margin-left: 6%; */
+  margin-left:-330px;
+  color: #ef8d36;
+  font-size: 4rem;
+}
+
+.mytalents {
+  margin-left: 15%;
+
+  font-size: 2rem;
+
 }
   
   }
