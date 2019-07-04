@@ -52,18 +52,22 @@ hr.topLine {
 }
 
 .videoWrapper {
-	position: relative;
-  padding-bottom: 45%;
-	padding-top: 25px;
-	height: 0;
+  display: block;
+	/* position: relative; */
+  /* padding-bottom: 45%; */
+  padding-top: 25px;
+  width: 100%;
+  height: 500px;
+  padding-bottom: 20%;
+  margin-left: 14%;
 }
-.videoWrapper iframe {
+/* .videoWrapper iframe {
   display: block;
   margin: 0 auto;
   margin-left: 13%;
 	width: 70%;
 	height: 400px;
-}
+} */
 
 /* NEW MENU -----------------------  */
 .topnav {
@@ -1063,7 +1067,7 @@ button:hover {
     .jamesIntro {
       margin-top: -37px;
       font-size: 4.5em;
-      margin-left: 9%;
+      margin-left: 12.5%;
     }
 
     .jamesPortfolio {
@@ -1084,6 +1088,11 @@ button:hover {
       font-size: 4em;
       margin-left: 11%;
     }
+
+    .totalSkills {
+      margin-top: -350px;
+  }
+
     
   
   }
