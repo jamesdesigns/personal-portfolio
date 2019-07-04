@@ -1099,7 +1099,20 @@ button:hover {
     /* margin-top:-150px; */
   }
 
-    
+  .education {
+    width: 68%;
+}
+
+.coding {
+  width: 68%;
+  padding-top:10%;
+  margin-left: 15%;
+}
+
+.design {
+  width: 68%;
+  margin-left: 15%;
+}
   
   }
 
