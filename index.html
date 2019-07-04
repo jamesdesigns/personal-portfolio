@@ -44,7 +44,10 @@
           <div id="stats">
               
           </div>
-          <div id="myRepos"><p>OFF TODAY</p></div>
+          <div id="myRepos">
+            <p class="todaysDiscount">30%</p>            
+            <p class="todayOnly">OFF TODAY</p>
+          </div>
 
           <!-- <div id="projects"></div> -->
           <div id="CTA">
@@ -140,19 +143,19 @@ function closeNav() {
 <script>
 
 
-fetch('https://api.github.com/users/jamesdesigns/repos')
-  .then(response => response.json())
-  .then(data => {
-    // Here's a list of repos!
-  //   var text = " ";
-  //  for (var i = 0; i < data.length; i++) { 
-  //   var repos = document.getElementById("projects").innerHTML = text += data[i].name + `<br>`;
-  //  }
-   var amount = document.getElementById("stats").innerHTML = data.length + "%";
-   console.log(amount);
+// fetch('https://api.github.com/users/jamesdesigns/repos')
+//   .then(response => response.json())
+//   .then(data => {
+//     // Here's a list of repos!
+//   //   var text = " ";
+//   //  for (var i = 0; i < data.length; i++) { 
+//   //   var repos = document.getElementById("projects").innerHTML = text += data[i].name + `<br>`;
+//   //  }
+//    var amount = document.getElementById("stats").innerHTML = data.length + "%";
+//    console.log(amount);
   
-    // var commits = document.getElementById("commits").innerHTML = data[25].commits_url + `<br>`;
-  });
+//     // var commits = document.getElementById("commits").innerHTML = data[25].commits_url + `<br>`;
+//   });
 
 
 
