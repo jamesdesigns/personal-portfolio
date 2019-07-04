@@ -986,7 +986,6 @@ button:hover {
   @media screen and (max-width: 800px) {
     .myName {
       font-size: 5em;
-      margin-left: -70.5%;
       padding: 50px 0;
       margin-bottom:60px;
     }
