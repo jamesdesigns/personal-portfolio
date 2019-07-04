@@ -473,7 +473,7 @@ clear: both;
  /* About Me Skills and Education  */
  .totalSkills {
    display: flex;
-   /* flex-wrap: nowrap; */
+   flex-direction: row;
    margin-top:-150px;
  }
 
@@ -1091,6 +1091,12 @@ button:hover {
 
     .totalSkills {
       margin-top: -350px;
+  }
+
+  .totalSkills {
+    display: flex;
+    flex-direction: column;
+    /* margin-top:-150px; */
   }
 
     
