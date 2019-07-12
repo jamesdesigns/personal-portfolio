@@ -3,7 +3,7 @@ body {
      font-family: din-2014, sans-serif;
     font-weight: 400;
 
-      font-style: normal;
+    font-style: normal;
      color: #fff;
      background-repeat: no-repeat;
      background-attachment: fixed;
@@ -116,7 +116,7 @@ hr.topLine {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 17px;
 }
 
 .topnav a:hover {
@@ -309,10 +309,6 @@ flex-direction: column;
   width: 100%;
   margin-top:7%;
   font-size: 12.05vw;
-  font-family: din-2014, sans-serif;
-  font-weight: 800;
-
-font-style: normal;
   /* font-size: 25vw; */
   /* height: 400px; */
 }
@@ -463,7 +459,7 @@ header {
 .contact-header { 
   display: flex; 
   flex-direction: row;
-  height: 90px;
+  height: 100px;
   background-color: #000;
   position: fixed;
   right: 0;
@@ -485,7 +481,7 @@ clear: both;
     font-size:23px;
     font-weight: 100;
     line-height:50px;
-    margin-top: -10px;
+    margin-top: -15px;
     margin-left: 0.5%;
     font-family: din-2014, sans-serif;
     font-weight: 400;
