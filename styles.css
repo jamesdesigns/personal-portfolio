@@ -1279,6 +1279,9 @@ button {
   margin: 5px 0;
 }
 
+textarea {
+  width: 99%;
+}
 
 
 
