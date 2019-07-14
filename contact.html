@@ -33,26 +33,12 @@
         </div>
 
 </header> 
-<!-- <span style="font-size:30px;cursor:pointer;float:right;margin-right:2%;margin-top:-3%;" onclick="openNav()">&#9776;</span>
 
-<div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content"> 
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="services.html">Services</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-        </div>
-      </div> -->
-<!-- <section>
-  <h1>Contact me.</h1>
-</section> -->
 <section>
 
   
 <form id="regForm" action="">
-  <!-- Circles which indicates the steps of the form: -->
+  <!-- Horizontal Lines which indicates the steps of the form: -->
   <div style="text-align:left;margin-top:40px;">
       <span class="step"></span>
       <span class="step"></span>
@@ -60,14 +46,12 @@
       <span class="step"></span>
     </div>
 
-
-  <!-- <h1 style="font-size:32px; text-align: left;">Hello! I would love to hear from you.</h1> -->
-  <!-- One "tab" for each step in the form: -->
+    
   <div class="tab">Hello! What's your name?
-    <p><input placeholder="First name..." oninput="this.className = ''" name="fname"></p>
+    <p><input id="firstName" placeholder="First name..." oninput="this.className = ''" name="fname"></p>
     <p><input placeholder="Last name..." oninput="this.className = ''" name="lname"></p>
   </div>
-  <div class="tab">What's the best way to contact you?
+  <div class="tab">What's the best way to contact you?<p id="demo"></p>
     <p><input placeholder="E-mail..." oninput="this.className = ''" name="email"></p>
     <p><input placeholder="Phone..." oninput="this.className = ''" name="phone"></p>
   </div>
@@ -121,6 +105,14 @@
 <script>
 var currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the current tab
+
+function outputName() {
+ var x,y,z;
+ x = document.getElementById("regForm");
+ y = x.elements["fname"].value;
+ z = document.getElementById("demo").innerHTML = y;
+ document.write(z);
+}
 
 function showTab(n) {
   // This function will display the specified tab of the form...
