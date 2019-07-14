@@ -24,14 +24,14 @@ p {
   text-indent: -9999px;
   width: 200px;
   height: 200px;
-  background: url(jameshooperlogo-sprite.svg) no-repeat;
+  background: url(jameshooperlogo-sprite-nb.svg) no-repeat;
   margin-left: -100px;
 }
 
 .arrow span {
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
-  background: url(jameshooperlogo-sprite.svg) no-repeat;
+  background: url(jameshooperlogo-sprite-nb.svg) no-repeat;
   background-position: 100px 0;
   opacity: 0;
   -webkit-transition: opacity 0.5s;
@@ -489,7 +489,6 @@ clear: both;
     font-weight: 100;
     line-height:50px;
     margin-top: -10px;
-    margin-left: 0.5%;
     font-family: din-2014, sans-serif;
     font-weight: 400;
   font-style: normal;
