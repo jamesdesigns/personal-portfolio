@@ -195,8 +195,8 @@ hr.topLine {
 }
 .subHeadLogo{
   color: #fff; 
-  font-size: 80%;
-  margin-top: -95px;
+  font-size: 75%;
+  margin-top: -100px;
 }
 
 .mylogo {
@@ -1047,6 +1047,10 @@ input.invalid {
   font-family: din-2014, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.submitTab {
+  margin-bottom: 5%;
 }
 
 button {
