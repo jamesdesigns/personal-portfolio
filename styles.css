@@ -796,13 +796,17 @@ margin-left: 11%;
 padding-bottom: 10%;
 }
 
+.portfolio a {
+  text-decoration: none;
+}
+
 .plus {
   font-size: 800%;
   font-weight: bold;
   margin-top: -300px;
   margin-left: 43%;
-  color: #fff;
-  opacity: .5;
+  color: #fff; 
+  opacity: .5; 
 }
 
 .designWork {
