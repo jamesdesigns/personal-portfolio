@@ -288,7 +288,9 @@ flex-direction: column;
   margin-top: -170px;
   margin-left: 15.5%;
   font-size: 3vw;
-  color: gray;
+  /* color: gray; */
+  /* color: #da3688; */
+  color: #ef8d36;
 }
 
 
