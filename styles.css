@@ -502,6 +502,7 @@ clear: both;
  #profession .subHeadLogo {
    color: #fff;
    width: 300px;
+   margin-left: 2px;
  }
  /* #profession:hover {
   background: linear-gradient(to right,#ff8a00,#da1b60);
