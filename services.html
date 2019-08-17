@@ -41,6 +41,57 @@
         <h1 class="jamesIntro2">DEVELOPMENT</h1>
   </section>
 
+  <section>
+  <div id="wrapper">
+    <div class="chart">
+       <h3>Reasons for Not Personalizing Content</h3>
+       <table id="data-table" border="1" cellpadding="10" cellspacing="0"
+       summary="The effects of the zombie outbreak on the populations
+       of endangered species from 2012 to 2016">
+          <!-- <caption>Percentage of Effort</caption> -->
+          <thead>
+             <tr>
+              <td>&nbsp;</td>
+              <th scope="col">2012</th>
+              <th scope="col">2013</th>
+              <th scope="col">2014</th>
+              <th scope="col">2015</th>
+              <th scope="col">2016</th>
+               
+             </tr>
+          </thead>
+          <tbody>
+             <tr>
+                <th scope="row">Carbon Tiger</th>
+                <td>4080</td>
+                <td>6080</td>
+                <td>6240</td>
+                <td>3520</td>
+                <td>2240</td>
+             </tr>
+             <tr>
+              <th scope="row">Blue Monkey</th>
+              <td>5680</td>
+              <td>6880</td>
+              <td>6240</td>
+              <td>5120</td>
+              <td>2640</td>
+           </tr>
+           <tr>
+              <th scope="row">Tanned Zombie</th>
+              <td>1040</td>
+              <td>1760</td>
+              <td>2880</td>
+              <td>4720</td>
+              <td>7520</td>
+           </tr>
+            
+          </tbody>
+       </table>
+    </div>
+ </div>
+</section>
+
   <footer>
       <div class="homeFtr">
         <img class="edge" src="../artistjameshooper/black-cut-edge.svg" alt="">
@@ -95,5 +146,98 @@
                     </script>        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
         <script src="script.js"></script>
+        <script>
+
+
+
+        // Wait for the DOM to load everything, just to be safe
+$(document).ready(function() {
+
+// Create our graph from the data table and specify a container to put the graph in
+createGraph('#data-table', '.chart');
+
+// Here be graphs
+function createGraph(data, container) {
+   // Declare some common variables and container elements
+var bars = [];
+var figureContainer = $('<div id="figure"></div>');
+var graphContainer = $('<div class="graph"></div>');
+var barContainer = $('<div class="bars"></div>');
+var data = $(data);
+var container = $(container);
+var chartData;
+var chartYMax;
+var columnGroups;
+
+// Timer variables
+var barTimer;
+var graphTimer;
+
+   // Create the table data object
+   var tableData = {
+    // Get numerical data from table cells
+   chartData: function() {
+    
+   },
+   // Get heading data from table caption
+   chartHeading: function() {
+    
+   },
+   // Get legend data from table body
+   chartLegend: function() {
+    
+   },
+   // Get highest value for y-axis scale
+   chartYMax: function() {
+      
+   },
+   // Get y-axis data from table cells
+   yLegend: function() {
+    
+   },
+   // Get x-axis data from table header
+   xLegend: function() {
+    
+   },
+   // Sort data into groups based on number of columns
+   columnGroups: function() {
+    var columnGroups = [];
+   // Get number of columns from first row of table body
+   var columns = data.find('tbody tr:eq(0) td').length;
+   for (var i = 0; i < columns; i++) {
+      columnGroups[i] = [];
+      data.find('tbody tr').each(function() {
+         columnGroups[i].push($(this).find('td').eq(i).text());
+      });
+   }
+   return columnGroups;
+   }
+   }
+
+   // Useful variables to access table data
+  
+
+   // Construct the graph
+  
+
+   // Set the individual heights of bars
+   function displayGraph(bars) {
+    
+   }
+
+   // Reset the graph's settings and prepare for display
+   function resetGraph() {
+    
+      displayGraph(bars);
+   }
+
+   // Helper functions
+  
+
+   // Finally, display the graph via reset function
+   resetGraph();
+}
+});
+        </script>
         </body>
         </html>

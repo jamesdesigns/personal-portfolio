@@ -11,6 +11,18 @@ body {
      height:100%;
 }
 
+/* NEW TABLE */
+#wrapper {
+  height: 420px;
+  left: 30%;
+  margin: -210px 0 0 -270px;
+  position: absolute;
+  margin-top: 50px;
+  width: 540px;
+}
+
+/* End of NEW TABLE  */
+
 p {
   font-family: din-2014, sans-serif;
   font-weight: 400;
@@ -273,10 +285,10 @@ flex-direction: column;
   width: 100%;
   height: auto;
   color: #fff;
-  font-size: 9vw;
+  font-size: 7vw;
   font-weight: bold;
   margin-left: 15%;
-  margin-top: -30px;
+  margin-top: 170px;
   /* padding-bottom:30px; */
 }
 
@@ -293,7 +305,10 @@ flex-direction: column;
   color: #ef8d36;
 }
 
-
+.container-commits {
+  display: block;
+  margin-top:-100px;
+}
 #commits ul {
   /* list-style-type: none; */
 
@@ -402,6 +417,7 @@ box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
   font-size: 2em;
   font-weight: bold;
   color: #fff;
+  margin-top: -25px;
 }
 
 a.gitlink {
