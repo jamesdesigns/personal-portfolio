@@ -7,8 +7,94 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://use.typekit.net/shu4idq.css">
+<script>
+    window.onload = function () {
+
+      CanvasJS.addColorSet("greenShades",
+                [//colorSet Array
+
+                "#ff8a00",
+                "#da1b60"              
+                ]);
+
+    
+    var chart = new CanvasJS.Chart("chartContainer", {
+      colorSet: "greenShades",
+      exportEnabled: true,
+      animationEnabled: true,
+      title:{
+        text: "Importance of UX Design"
+      },
+      subtitles: [{
+        text: "Click Legend to Hide or Unhide Data Series"
+      }], 
+      axisX: {
+        title: "Seconds"
+      },
+      axisY: {
+        title: "Frequency",
+        titleFontColor: "#4F81BC",
+        lineColor: "#4F81BC",
+        labelFontColor: "#4F81BC",
+        tickColor: "#4F81BC"
+      },
+      axisY2: {
+        title: "Clutch - Units",
+        titleFontColor: "#da3688",
+        lineColor: "#da3688",
+        labelFontColor: "#da3688",
+        tickColor: "#da3688"
+      },
+      toolTip: {
+        shared: true
+      },
+      legend: {
+        cursor: "pointer",
+        itemclick: toggleDataSeries
+      },
+      data: [{
+        type: "column",
+        name: "Oil Filter",
+        showInLegend: true,      
+        yValueFormatString: "#,##0.# Units",
+        dataPoints: [
+          { label: "New Jersey",  y: 19034.5 },
+          { label: "Texas", y: 20015 },
+          { label: "Oregon", y: 25342 },
+          { label: "Montana",  y: 20088 },
+          { label: "Massachusetts",  y: 28234 }
+        ]
+      },
+      {
+        type: "column",
+        name: "Clutch",
+        axisYType: "secondary",
+        showInLegend: true,
+        yValueFormatString: "#,##0.# Units",
+        dataPoints: [
+          { label: "New Jersey", y: 210.5 },
+          { label: "Texas", y: 135 },
+          { label: "Oregon", y: 425 },
+          { label: "Montana", y: 130 },
+          { label: "Massachusetts", y: 528 }
+        ]
+      }]
+    });
+    chart.render();
+    
+    function toggleDataSeries(e) {
+      if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+        e.dataSeries.visible = false;
+      } else {
+        e.dataSeries.visible = true;
+      }
+      e.chart.render();
+    }
+    
+    }
+    </script>
 </head>
-<body onload="animateText()">
+<body>
 <header>
   <div>
     <a href="index.html" class="arrow">James Hooper Designs<span></span></a>
@@ -42,13 +128,15 @@
   </section>
 
   <section>
-  <div id="wrapper">
+
+      <div id="chartContainer" style="height: 370px; width: 70%;"></div>
+  <!-- <div id="wrapper">
     <div class="chart">
        <h3>Reasons for Not Personalizing Content</h3>
        <table id="data-table" border="1" cellpadding="10" cellspacing="0"
        summary="The effects of the zombie outbreak on the populations
        of endangered species from 2012 to 2016">
-          <!-- <caption>Percentage of Effort</caption> -->
+         
           <thead>
              <tr>
               <td>&nbsp;</td>
@@ -89,7 +177,7 @@
           </tbody>
        </table>
     </div>
- </div>
+ </div> -->
 </section>
 
 <footer>
@@ -242,5 +330,11 @@ var graphTimer;
 }
 });
         </script>
+
+
+
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script src="js/canvasjs.min.js"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
         </body>
         </html>
