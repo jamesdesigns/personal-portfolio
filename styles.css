@@ -1,8 +1,8 @@
 body {
      background-color: #000;
      font-family: din-2014, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+     font-weight: 400;
+     font-style: normal;
      color: #fff;
      background-repeat: no-repeat;
      background-attachment: fixed;
@@ -24,7 +24,6 @@ body {
   margin-top: 50px;
   width: 540px;
 }
-
 /* End of NEW TABLE  */
 
 p {
@@ -108,21 +107,12 @@ hr.topLine {
 
 .videoWrapper {
   display: block;
-	/* position: relative; */
-  /* padding-bottom: 45%; */
   padding-top: 25px;
   width: 100%;
   height: 500px;
   padding-bottom: 20%;
   margin-left: 14%;
 }
-/* .videoWrapper iframe {
-  display: block;
-  margin: 0 auto;
-  margin-left: 13%;
-	width: 70%;
-	height: 400px;
-} */
 
 /* NEW MENU -----------------------  */
 .topnav {
@@ -165,12 +155,9 @@ hr.topLine {
     float: right;
     display: block;
     padding-right: 0;
-    /* margin-top: -47px; */
     margin-right: -30px;
     margin-left: -10px;
   }
-
-
 }
 
 @media screen and (max-width: 880px) {
@@ -198,23 +185,16 @@ hr.topLine {
     font-size: 200%;
     font-weight: bold;
   }
-    .header-right {
-  /* float:left; */
-  margin-left: 32.5%;
-  margin-right: 30%;
+  .header-right {
+    margin-left: 32.5%;
+    margin-right: 30%;
 }
-
-
 }
-
-
 /* END OF NEW MENU ----------------- */
-
-
 .logo {
-
   height: 70px;
 }
+
 .subHeadLogo{
   color: #fff; 
   font-size: 75%;
@@ -238,9 +218,6 @@ overflow: hidden;
 .sticky + #name {
   padding-top: 10px;
 }
-
-
-
 
 hr {
   border: 1px dotted #ccc;
@@ -270,13 +247,11 @@ p {
   color: #ccc;
   width: 300px; 
   height: 110px; 
-  /* height: auto; */
   overflow: auto; 
   text-align:justify; 
   margin-top:-110px;
   margin-right: 3%;
 }
-
 
 #projects:hover {
   background: linear-gradient(to right,#ff8a00,#da1b60);
@@ -291,19 +266,14 @@ p {
   font-weight: 900;
 }
 #myRepos {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .todaysDiscount {
-  /* display: block;
-  width: 100%;
-  height: auto; */
   color: #fff;
   font-size: 9vw;
   font-weight: bold;
-  /* margin-left: 15%;
-  margin-top: 190px; */
   margin: 43px 0 0 15%;
 }
 
@@ -315,8 +285,6 @@ flex-direction: column;
   margin-top: -170px;
   margin-left: 15.5%;
   font-size: 3vw;
-  /* color: gray; */
-  /* color: #da3688; */
   color: #ef8d36;
 }
 
@@ -324,15 +292,15 @@ flex-direction: column;
   display: block;
   margin-top:-100px;
 }
-#commits ul {
-  /* list-style-type: none; */
 
+#commits ul {
   margin-left: 14.25%;
   margin-top:-1.25%;
   margin-bottom:5%;
   font-size: 115%;
   line-height: 26px;
 }
+
 #commits ul li a {
   text-decoration: none;
   color: #A8A8A8;
@@ -345,11 +313,8 @@ flex-direction: column;
 .myName {
   display: block;
   width: 100%;
-  /* margin-top: 1%; */
   margin-top: -4.5%;
   font-size: 12.05vw;
-  /* font-size: 25vw; */
-  /* height: 400px; */
 }
 
 #CTA {
@@ -381,8 +346,8 @@ flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   -webkit-box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
 }
 
 #CTAabout .hireMeBtn {
@@ -397,8 +362,8 @@ box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   -webkit-box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
 }
 
 #CTA .freeQuote {
@@ -424,8 +389,8 @@ box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   -webkit-box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
- -moz-box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
- box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 18px -2px rgba(0,0,0,0.75);
 }
 
 .currentProjects {
@@ -466,8 +431,6 @@ section#profile {
 #profile {
   background-image:url('images/self-portrait-4.png');
   background-repeat:no-repeat;
-  /* background-size:1450px 900px; */
-  /* background-size: cover; */
   background-position:center;
   width: 100%;
   /* Create the parallax scrolling effect */
@@ -477,14 +440,12 @@ section#profile {
   /* background-size: cover; */
 }
 
-
 .home {
 margin-left: 7%;
 z-index: -10000;
 width: 100%;
 height: auto;
 }
-
 
 header { 
   display: flex; 
@@ -526,7 +487,7 @@ clear: both;
     margin-top: -10px;
     font-family: din-2014, sans-serif;
     font-weight: 400;
-  font-style: normal;
+    font-style: normal;
   }
 
  #profession p {
@@ -537,15 +498,6 @@ clear: both;
    width: 300px;
    margin-left: 2px;
  }
- /* #profession:hover {
-  background: linear-gradient(to right,#ff8a00,#da1b60);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-  z-index: 1000;
-
- }  */
 
  /* About Me Skills and Education  */
  .totalSkills {
@@ -566,15 +518,12 @@ clear: both;
    font-family: din-2014, sans-serif;
    font-weight: 400;
    font-style: normal;
-   /* font-family: Arial, Helvetica, sans-serif; */
    font-size: 2rem;
    color: #fff;
  }
 
- 
  .education ul { 
    margin-top: -15px;
-   /* padding-bottom: 4%; */
   }
 
  .education ul li {
@@ -596,7 +545,6 @@ clear: both;
   font-family: din-2014, sans-serif;
   font-weight: 400;
   font-style: normal;
-  /* font-family: Arial, Helvetica, sans-serif; */
   font-size: 2rem;
   color: #fff;
 }
@@ -620,7 +568,6 @@ clear: both;
   font-family: din-2014, sans-serif;
   font-weight: 400;
   font-style: normal;
-  /* font-family: Arial, Helvetica, sans-serif; */
   font-size: 2rem;
   color: #fff;
 }
@@ -637,15 +584,12 @@ clear: both;
 .mytalents {
   margin-top: -100px;
   margin-left: 15%;
-  /* margin-top: -1%; */
   padding-bottom: 15%;
   font-family: din-2014, sans-serif;
   font-weight: 400;
   font-style: normal;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* font-size: 5.25rem;  */
-    font-size: 5.5rem;
-    color: #fff;
+  font-size: 5.5rem;
+  color: #fff;
 }
 
 .whyHireMe {
@@ -702,8 +646,6 @@ h1 {
   margin: 0 auto;
 }
 
-
-
 #container {
     display: flex;
     flex-direction: row;
@@ -711,14 +653,11 @@ h1 {
     margin:0 auto;
     color: #fff;
 }
-#container:hover {
-    
-}
+
 /* HOMEFOOTER */
 .edge {
   width: 100%;
 }
-
 
 .homeFtr {
   background: #ff8a00;  /* fallback for old browsers */
@@ -730,15 +669,14 @@ h1 {
 .hurry {
   display: block;
   width: 100%;
-  /* font-size:7rem; */
   font-size: 7.05vw;
   font-weight: bold;
   color: #000;
   text-align: center;
   margin-top:-200px;
 }
+
 .callNow {
-  /* font-size:13rem; */
   font-size: 12.05vw;
   font-weight: bold;
   color: #fff;
@@ -787,17 +725,9 @@ h1 {
   margin-right: 3%;
 }
 
-.bottomFtr img {
-  /* margin-top: 1.55%;
-  margin-right: 1%; */
-}
-
 .bottomFtrContact img {
   margin-top: 1.55%;
   margin-right: 1%;
-}
-.bottomFtr a:first-child {
-  /* margin-left: 45%; */
 }
 
 .bottomFtrContact a:first-child {
@@ -811,8 +741,6 @@ h1 {
 #name {
     font-size: 1em;
     display: block;
-    /* margin-left: 16%; */
-    /* padding-top: 30px; */
     background: linear-gradient(to right,#ff8a00,#da1b60);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -823,13 +751,13 @@ h1 {
 #name:hover {
     color: #fff;
 }
+
 /* Portfolio */
 .portfolio {
   display: flex;
-/* flex-direction: row; */
-flex-wrap: wrap;
-margin-left: 11%;
-padding-bottom: 10%;
+  flex-wrap: wrap;
+  margin-left: 11%;
+  padding-bottom: 10%;
 }
 
 .portfolio a {
@@ -934,7 +862,6 @@ padding-bottom: 10%;
     margin: .25rem;
     margin-left: 50px;
     padding: .25rem;
-    /* padding-top: 5%; */
     font-size: 120%;
     width: 34%;
   }
@@ -948,7 +875,6 @@ padding-bottom: 10%;
   .blog p {
     font-size: 120%;
     line-height: 1.75;
-    /* width:100%; */
     margin-right:15%;
   }
 
@@ -961,8 +887,6 @@ padding-bottom: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin-top: -190px;
-    margin-top: -70px; */
     margin-left: 15.5%;
 }
 
@@ -1014,15 +938,13 @@ padding-bottom: 10%;
   /* Variables
 ================================== */
 .container {
-  /* margin: 10%; */
-
   background: linear-gradient(to right,#ff8a00,#da1b60);
   -webkit-background-clip: text;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
   z-index: 1000;
-  
 }
+
 /* NEW SKILLS BUTTON */
 .btn {
   font-family: din-2014, sans-serif;
@@ -1032,22 +954,16 @@ padding-bottom: 10%;
   text-align:center;
   cursor: pointer;
   padding: 15px 80px;
-  /* margin: 25px 30px; */
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
   outline: none;
   position: relative;
-  background: #ec008c;  /* fallback for old browsers */
-  /* background: -webkit-linear-gradient(to right, #fc6767, #ec008c); 
-  background: linear-gradient(to right, #fc6767, #ec008c);  */
-
+  background: #ec008c; 
   border: solid 1px transparent;
   border-radius:10px;
   -webkit-font-smoothing: antialiased;
 }
-
-
 
 .social img:hover{
   animation: rotation .5s linear;
@@ -1062,7 +978,6 @@ padding-bottom: 10%;
   }
 }
 
-
 .skills {
   position: relative;
   width: 350px;
@@ -1076,8 +991,6 @@ padding-bottom: 10%;
   text-decoration: none;
   color: #000;
 }
-
-
 
 /* Tables
 ================================== */
@@ -1187,23 +1100,12 @@ button:hover {
 
 /* Make circles that indicate the steps of the form: */
 .step {
-  /* height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbbbbb;
-  border: none;  
-  border-radius: 50%;
-  display: inline-block;
-  opacity: 0.5; */
-
   height: 5px;
   width: 80px;
   margin: 0 2px 50px;
   background-color: #bbbbbb;
   border: none;  
-  /* border-radius: 50%; */
   display: inline-block;
-  /* opacity: 0.5; */
 }
 
 .step.active {
@@ -1216,29 +1118,14 @@ button:hover {
 }
 
 /* End of Contact form */
-  
-  /* @media screen and (max-height: 450px) {
-    .box {
-      display: flex;
-      flex-direction: column;
-    }
 
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-    }
-  } */
-
-  @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .myName {
       font-size: 5em;
       padding: 50px 0;
       margin-top: 200px;
       /* margin-bottom:60px; */
     }
-
 
     .callNow {
       font-size: 5em;
@@ -1250,7 +1137,7 @@ button:hover {
     }
 
    .todaysDiscount {
-     text-shadow: 2px 2px #000;
+      text-shadow: 2px 2px #000;
       font-size: 15vw;
       padding-top: 90px;
   }
@@ -1276,7 +1163,6 @@ button:hover {
     }
   
     .legal{
-      /* width: 70%; */
       margin-left: 25%;
       margin-top:-10px;
     }
@@ -1351,16 +1237,12 @@ button:hover {
 }
 
 .whyHireMe {
-  /* margin-left: 6%; */
   margin-left:-330px;
   color: #ef8d36;
   font-size: 4rem;
 }
 
 .mytalents {
-  /* margin-left: 15%;
-  margin-top:-200px;
-  font-size: 2rem; */
   display: none;
 }
   
@@ -1387,7 +1269,6 @@ button:hover {
 }
 
 #commits ul {
-  /* list-style-type: none; */
   margin-left: 14.25%;
   margin-top: -1.25%;
   margin-bottom: 5%;
@@ -1431,13 +1312,6 @@ button:hover {
   margin-right: 1%;
 }
 
-.bottomFtr p {
-  /* color: #000;
-  float: right;
-  margin-top: 2.5%; */
-  /* margin-right: 19%; */
-}
-
 button {
   width: 100%;
   margin: 5px 0;
@@ -1447,12 +1321,5 @@ textarea {
   width: 99%;
 }
 
-
-
-
-  }
-
-
-  
-  
-  }
+}
+}
