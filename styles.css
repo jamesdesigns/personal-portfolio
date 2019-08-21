@@ -11,6 +11,10 @@ body {
      height:100%;
 }
 
+#fullpage {
+  width: 100%;
+}
+
 /* NEW TABLE */
 #wrapper {
   height: 420px;

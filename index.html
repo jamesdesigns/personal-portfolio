@@ -14,22 +14,18 @@
 </head>
 <body onload="animateText()">
 <header>
-    <!-- <img class="logo" src="icon.png" width="40" height="40" alt="Artist James Hooper Logo" /> -->
-    <!-- <a class="JamesHooperLogo" href="index.html"><img class="logo" src="jameshooperlogo.svg" alt="Artist James Hooper Logo" /></a> -->
     <div id="JamesHooperLogo">
     <a href="index.html" class="arrow">James Hooper Designs<span></span></a>
     </div>
     <div id="profession"><p>James Hooper Designs</p><br>
       <p class="subHeadLogo">Web Design & Development</p>
     </div>
-    <!-- <div id="specifics">Web Design & Development</div> -->
-
-<!-- Links Coming Soon -->
+ 
 <div class="topnav" id="myTopnav">
     <div class="header-right">
       <a href="index.html" class="active">Home</a>
       <a href="about.html">About</a>
-      <a href="services.html">Services</a>
+      <!-- <a href="services.html">Services</a> -->
       <a href="portfolio.html">Portfolio</a>
       <a href="contact.html">Contact</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -37,21 +33,12 @@
       </a>
       </div>
     </div>
-<!-- End of Links -->
-
-
-
 </header> 
 
-
-
+<div id="fullpage">
       <section id="profile">
-
           <div id="stats">
           </div>
-
-
-
           <div class="container-commits">
               <p class="todaysDiscount">Hello</p>    
               <p class="currentProjects">I create meaningful websites.</p>
@@ -62,17 +49,13 @@
                   <li><a href="#" target="_blank">Creative Web Design & Development</a></li>
                   <li><a href="#" target="_blank">Focused On User Experience</a></li>
                   <li><a href="#" target="_blank">Strong Logo Designs</a></li>
-                  <!-- <li><a href="#" target="_blank">Professional Business Cards</a></li>
-                  <li><a href="#" target="_blank">Custom Art & Illustrations</a></li> -->
                 </ul>
               </div>
 
               <div id="CTA">
                   <button class="hireMe btn">HIRE ME</button>
                   <button class="freeQuote btn">FREE QUOTE</button>
-                </div>
-          
-          <!-- <div id="projects"></div> -->
+              </div>
       </section>
 <section>   
     <div id="name">
@@ -87,15 +70,16 @@
       </p>
       
     </div>
-</section>   <!-- End of Grid  -->
+</section>
+
 <hr class="horizontalLine">
+
 <section>   
   <div>
     <h2 class="blogTitle">How To Influence Customer Behaviors the Right Way</h2>
     <h3 class="blogAuthor">Written by James Hooper</h3>
     <blockquote class="blogTitleSub">Nudge is a method for predictably altering behavior without restricting options or significantly changing incentives.</blockquote>
   </div>
-   
     <div class="blog flex">
       <img class="blogImg" src="nudge-example1.png" alt="Design Principle - Nudge" width="900" height="509" />
       <img class="blogImg2" src="nudge-example2.png" alt="Design Principle - Nudge" width="900" height="215" />
@@ -123,127 +107,9 @@
 
 </footer>
 
-<!-- This BELONGS TO ORIGINAL NAVIGATION MENU -->
-<!-- <script>
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script> -->
-<!-- END of ORIGINAL NAVIGATION MENU SCRIPT -->
-
-
-<!-- <script>
-        var i = 0;
-        var txt = 'James Hooper';
-        var speed = 45;
-        
-        function animateText() {
-          if (i < txt.length) {
-            document.getElementById("profession").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(animateText, speed);
-          }
-        }
-        </script> -->
-        <!-- <script>
-            window.onscroll = function() {myFunction()};
-            
-            var navbar = document.getElementById("myNav");
-            var sticky = navbar.offsetTop;
-            
-            function myFunction() {
-              if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-              } else {
-                navbar.classList.remove("sticky");
-              }
-            }
-            </script> -->
-       
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script> -->
+</div>
 <script src="script.js"></script>
 <script>
-
-
-// fetch('https://api.github.com/users/jamesdesigns/repos')
-//   .then(response => response.json())
-//   .then(data => {
-//     // Here's a list of repos!
-//   //   var text = " ";
-//   //  for (var i = 0; i < data.length; i++) { 
-//   //   var repos = document.getElementById("projects").innerHTML = text += data[i].name + `<br>`;
-//   //  }
-//    var amount = document.getElementById("stats").innerHTML = data.length + "%";
-//    console.log(amount);
-  
-//     // var commits = document.getElementById("commits").innerHTML = data[25].commits_url + `<br>`;
-//   });
-
-
-
-  // fetch('https://api.github.com/repos/jamesdesigns/personal-portfolio/stats/punch_card')
-  // fetch('https://api.github.com/repos/jamesdesigns/personal-portfolio/stats/participation')
-
- 
-
-  // This is too display the commits -- which I may eliminate!
-  // fetch('https://api.github.com/repos/jamesdesigns/personal-portfolio/stats/contributors')
-  //   .then(response => response.json())
-  //   .then(commits => {
-  //     var totalCommits = document.getElementById("commits").innerHTML = JSON.stringify(commits[0].total);
-  //     console.log(commits);
-
-  //         fetch('https://api.github.com/repos/jamesdesigns/Node-Project/stats/contributors')
-  //       .then(response => response.json())
-  //       .then(commits => {
-  //         var totalCommits2= document.getElementById("commits").innerHTML = JSON.stringify(commits[0].total);
-  //         console.log(commits);
-
-  //         document.getElementById("commits").innerHTML = parseInt(totalCommits) + parseInt(totalCommits2);
-  //         console.log(parseInt(totalCommits) + parseInt(totalCommits2));
-
-  //                   fetch('https://api.github.com/repos/jamesdesigns/Node-crud-server/stats/contributors')
-  //                 .then(response => response.json())
-  //                 .then(commits => {
-  //                   var totalCommits3= document.getElementById("commits").innerHTML = JSON.stringify(commits[0].total);
-  //                   console.log(commits);
-
-  //                   document.getElementById("commits").innerHTML = parseInt(totalCommits) + parseInt(totalCommits2) + parseInt(totalCommits3);
-  //                   console.log(parseInt(totalCommits) + parseInt(totalCommits2) + parseInt(totalCommits3));
-
-  //                           fetch('https://api.github.com/repos/jamesdesigns/jhooper-final-vue/stats/contributors')
-  //                         .then(response => response.json())
-  //                         .then(commits => {
-  //                           var totalCommits4= document.getElementById("commits").innerHTML = JSON.stringify(commits[0].total);
-  //                           console.log(commits);
-
-  //                           document.getElementById("commits").innerHTML = parseInt(totalCommits) + parseInt(totalCommits2) + parseInt(totalCommits3) + parseInt(totalCommits4);
-  //                           console.log(parseInt(totalCommits) + parseInt(totalCommits2) + parseInt(totalCommits3) + parseInt(totalCommits4));
-  //                         });
-  //                   });
-  //              });
-  //         });
-</script>
-<!-- <script>
-  window.onscroll = function() {myFunction()};
-  
-  var navbar = document.getElementById("myNav");
-  var sticky = navbar.offsetTop;
-  
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-  </script> -->
-
-  <script>
       function myFunction() {
         var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
@@ -254,6 +120,5 @@ function closeNav() {
       }
       </script>
 <script src="js/main.js"></script>
-
 </body>
 </html>
