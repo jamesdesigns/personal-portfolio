@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://use.typekit.net/shu4idq.css">
 </head>
-<body onload="animateText()">
+<body>
 <header class="contact-header">
   <div>
     <a href="index.html" class="arrow">James Hooper Designs<span></span></a>
@@ -16,9 +16,6 @@
     <div id="profession"><p>James Hooper Designs</p><br>
       <p class="subHeadLogo">Web Design & Development</p>
     </div>
-
-
-    <!-- <div id="profession"></div> -->
     <div class="topnav" id="myTopnav">
         <div class="header-right">
           <a href="index.html">Home</a>
@@ -31,12 +28,10 @@
           </a>
           </div>
         </div>
-
 </header> 
 
 <section>
 
-  
 <form id="regForm" action="contact.php">
   <!-- Horizontal Lines which indicates the steps of the form: -->
   <div style="text-align:left;margin-top:40px;">
@@ -46,7 +41,6 @@
       <span class="step"></span>
     </div>
 
-    
   <div class="tab">Hello! What's your name?
     <p><input id="firstName" placeholder="First name..." oninput="this.className = ''" name="fname"></p>
     <p><input placeholder="Last name..." oninput="this.className = ''" name="lname"></p>
@@ -68,13 +62,6 @@
       <button class="btn" type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
     </div>
   </div>
-  <!-- Circles which indicates the steps of the form: -->
-  <!-- <div style="text-align:center;margin-top:40px;">
-    <span class="step"></span>
-    <span class="step"></span>
-    <span class="step"></span>
-    <span class="step"></span>
-  </div> -->
 </form>
 </section>
 
@@ -84,12 +71,7 @@
   <p class="hurry">Call Now. I book fast!</p>
   <p class="callNow">(801)718-9727</p>
     </div>
-    <!-- <div class="bottomFtrContact">
-      <a href="https://twitter.com/ArtistJHooper" class="social" target="_blank"><img src="../artistjameshooper/twitter-icon.png" width="45" height="45" alt="twitter" /></a>
-      <a href="#" class="social" target="_blank"><img src="../artistjameshooper/facebook-icon.png" width="45" height="45" alt="facebook" /></a>
-      <a href="https://www.instagram.com/ArtistJHooper/" class="social" target="_blank"><img src="../artistjameshooper/instagram-icon.png" width="45" height="45" alt="instagram" /></a>
-      <p>&#169; 2019 ArtistJamesHooper. All Rights Reserved. </p>
-    </div> -->
+
     <div class="bottomFtr">
         <div class="socialIcons">
           <a class="social"  href="https://twitter.com/ArtistJHooper" target="_blank"><img src="../artistjameshooper/twitter-icon.png" width="45" height="45" alt="twitter" /></a>
@@ -184,12 +166,7 @@ function fixStepIndicator(n) {
   x[n].className += " active";
 }
 </script>
-
-
-
-
-
-                <script>
+<script>
                     function myFunction() {
                       var x = document.getElementById("myTopnav");
                       if (x.className === "topnav") {
@@ -198,9 +175,8 @@ function fixStepIndicator(n) {
                         x.className = "topnav";
                       }
                     }
-                    </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-        <script src="script.js"></script>
-
-        </body>
-        </html>
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
