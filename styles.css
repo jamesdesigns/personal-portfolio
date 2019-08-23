@@ -108,10 +108,13 @@ hr.topLine {
 .videoWrapper {
   display: block;
   padding-top: 25px;
-  width: 100%;
+  /* width: 100%; */
   height: 500px;
   padding-bottom: 20%;
-  margin-left: 14%;
+  /* margin-left: 14%; */
+  margin-left: 3%;
+  margin-right: 3%;
+
 }
 
 /* NEW MENU -----------------------  */
@@ -421,7 +424,7 @@ a.gitlink:hover {
   margin-right: 3%;
 }
 
-section#profile {
+#profile {
   display: block;
   width: 100%;
   height: 690px;
@@ -468,7 +471,18 @@ header {
   right: 0;
   left: 0;
   z-index: 999;
-  margin-top:-200px;
+  margin-top:-200px;  
+}
+
+.header {
+  display: flex; 
+  flex-direction: row;
+  height: 100px;
+  background-color: #000;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 999;
 }
 
 #specifics {
@@ -504,9 +518,16 @@ clear: both;
    display: flex;
    flex-direction: row;
    margin-top:-150px;
+   width: 100%;
  }
 
+ /* .myBackground {
+ display: flex;
+ flex-direction: row;
+ } */
+
  .education {
+   float: left;
    border: 1px solid #fff;
    border-radius: 10px;
    width:20%;
@@ -536,7 +557,8 @@ clear: both;
  }
 
  .coding {
-  width:30%;
+   float: left;
+  width:30%; 
   margin-left: 5%;
  }
 
@@ -561,6 +583,7 @@ clear: both;
 .design {
   width:30%;
   margin-left: -5%;
+  float: left;
  }
 
 .design h2 {
@@ -582,7 +605,10 @@ clear: both;
 }
 
 .mytalents {
-  margin-top: -100px;
+  display:block;
+  width:auto;
+
+  margin-top: 100px;
   margin-left: 15%;
   padding-bottom: 15%;
   font-family: din-2014, sans-serif;
@@ -655,8 +681,14 @@ h1 {
 }
 
 /* HOMEFOOTER */
+
+footer {
+  display: block;
+  width:100%;
+}
 .edge {
   width: 100%;
+  margin-top: -30px;
 }
 
 .homeFtr {
@@ -894,7 +926,7 @@ h1 {
   margin-left: 16%;
   font-size: 220%;
   margin-top:10%;
-  width: 95%;
+  /* width: 95%; */
 }
 
 .blogTitleSub {
@@ -1124,7 +1156,6 @@ button:hover {
       font-size: 5em;
       padding: 50px 0;
       margin-top: 200px;
-      /* margin-bottom:60px; */
     }
 
     .callNow {
@@ -1187,10 +1218,21 @@ button:hover {
       margin-left: 14%;
     }
 
+    .videoWrapper {
+  display: block;
+  padding-top: 25px;
+  height: 300px;
+  padding-bottom: 20%;
+  margin-left: 3%;
+}
+
     .jamesPortfolio {
-      margin-top: -46px;
+      /* margin-top: -46px;
       font-size: 6em;
-      margin-left: 14%;
+      margin-left: 14%; */
+      margin-top: -33px;
+      font-size: 4em;
+      margin-left: 11%;
     }
 
     .jamesIntroDesign {
@@ -1206,14 +1248,11 @@ button:hover {
       margin-left: 11%;
     }
 
-    .totalSkills {
-      margin-top: -350px;
-  }
 
   .totalSkills {
     display: flex;
     flex-direction: column;
-    /* margin-top:-150px; */
+    margin-top: 50px;
   }
 
   .education {
@@ -1300,12 +1339,9 @@ button:hover {
   width: 95%;
 }
 
-/* about me page */
 .edge {
   width: 100%;
-
 }
-/* End of about me page */
 
 .bottomFtrContact img {
   margin-top: 3.55%;
@@ -1322,4 +1358,4 @@ textarea {
 }
 
 }
-}
+
