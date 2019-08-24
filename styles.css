@@ -9,6 +9,7 @@ body {
      background-position: center; 
      margin: 0 auto;
      height:100%;
+     overflow-x: hidden; /* This Fixes unintended body overflow */
 }
 
 #fullpage {
@@ -922,6 +923,7 @@ footer {
     margin-left: 15.5%;
 }
 
+
 .blogTitle {
   margin-left: 16%;
   font-size: 220%;
@@ -1336,7 +1338,7 @@ button:hover {
 }
 
 .blogTitle {
-  width: 95%;
+  width:90%;
 }
 
 .edge {
