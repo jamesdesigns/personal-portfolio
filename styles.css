@@ -85,6 +85,7 @@ hr.topLine {
   font-size: 11.5em;
   color: white;
   text-align: left;
+  margin-left: 16.5%;
 }
 
 .jamesIntroDesign {
@@ -433,7 +434,7 @@ a.gitlink:hover {
 }
 
 #profile {
-  background-image:url('images/self-portrait-4.png');
+  background-image:url('images/self-portrait-5.png');
   width: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -787,7 +788,7 @@ footer {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 11%;
+  margin-left: 12%;
   padding-bottom: 10%;
 }
 
@@ -1367,6 +1368,7 @@ textarea {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   /* Styles */
 
+
   .mytalents {
     margin-top: -150px;
     font-size: 3.25rem;
@@ -1434,6 +1436,12 @@ textarea {
     font-size: 8em;
     margin-top: -58px;
     margin-left: 10%;
+}
+
+.Portfolio {
+  font-size: 8em;
+  margin-top: -58px;
+  margin-left: -12%;
 }
 
 .designWork {
@@ -1509,12 +1517,17 @@ textarea {
   .jamesPortfolio {
     margin-left: 11%;
 }
+.Portfolio {
+  font-size: 8em;
+  margin-top: -58px;
+  margin-left: -26%;
+}
 .portfolio {
   margin-left: 7%;
 }
 .jamesPortfolio {
-  margin-left: 9%;
-  margin-top: -55px;
+  margin-left: 11%;
+  margin-top: -58px;
   font-size: 8em;
 }
 .videoWrapper { 
