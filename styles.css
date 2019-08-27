@@ -434,12 +434,10 @@ a.gitlink:hover {
 
 #profile {
   background-image:url('images/self-portrait-4.png');
-  background-repeat:no-repeat;
-  background-position:center;
   width: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   /* background-size: cover; */
 }
@@ -661,7 +659,7 @@ clear: both;
 
 
 h1,h2,h3,h4,h5,h6 {
-    width: 1200px;
+    /* width: 1200px; */
     color: #ccc;
     font-family: 'Oswald', sans-serif;
 }
@@ -797,6 +795,7 @@ footer {
   text-decoration: none;
 }
 
+
 .plus {
   font-size: 800%;
   font-weight: bold;
@@ -895,7 +894,7 @@ footer {
     margin: .25rem;
     margin-left: 50px;
     padding: .25rem;
-    font-size: 120%;
+    font-size: 1.25em;
     width: 34%;
   }
 
@@ -906,9 +905,9 @@ footer {
   }
 
   .blog p {
-    font-size: 120%;
     line-height: 1.75;
     margin-right:15%;
+    font-size: 1.25rem;
   }
 
   .blog p:nth-child(3) {
@@ -1361,3 +1360,198 @@ textarea {
 
 }
 
+
+/* NEW STYLESHEETS */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+
+  .mytalents {
+    margin-top: -150px;
+    font-size: 3.25rem;
+  }
+  .whyHireMe {
+    margin-left: -32px;
+    font-size: 7rem;
+}
+
+.totalSkills {
+  flex-direction: column;
+  font-size: 150%;
+}
+
+.education {
+  float: left;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+
+.education ul {
+  margin-top: -15px;
+  margin-left: 8%;
+  margin-bottom: 50px;
+}
+
+#CTAabout .hireMeBtn {
+  margin-top: 175px;
+  margin-left: 30%;
+}
+
+#CTAabout .freeQuoteBtn {
+  margin-left: 30%;
+}
+
+.james {
+  border-radius: 50%;
+  margin-left: 38%;
+  margin-top: -10%;
+  margin-bottom: 5%;
+}
+
+.selfQuote {
+  margin-left: 25%;
+  margin-top: -2%;
+  width: 600px;
+}
+
+.coding {
+  float: left;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.design {
+  width: 70%;
+  margin-left: 15%;
+  float: left;
+}
+
+  .jamesPortfolio {
+    font-size: 8em;
+    margin-top: -58px;
+    margin-left: 10%;
+}
+
+.designWork {
+  display: block;
+  width: 700px;
+  height: auto;
+}
+  .todaysDiscount { 
+    margin: 183px 0 0 15%;
+  }
+
+  #commits {
+    background-color: #000 0.3;
+  }
+
+
+  .box.flex {
+    flex-direction: column;
+    font-size: 1rem;
+  }
+  .box p {
+    margin-left: 15%;
+    width: 70%;
+  }
+
+  .myName {
+    padding-bottom: 1.5em;
+  }
+  .blogTitle { 
+    width: 80%;
+  }
+
+  
+  .blogImg, .blogImg2 {
+    width: 85%;
+  }
+
+  .edgeContact {
+    margin-top:-10px;
+  }
+ 
+
+  }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+
+  .edgeContact {
+    margin-top:-10px;
+  }
+
+  .blogImg { 
+    width: 85%;
+  }
+  .blogImg2 {
+    width: 85%;
+  }
+
+  #blogArticle {
+    font-size:.85em;
+  }
+
+  .blog p {
+    font-size: 1em;
+  }
+  .myName {
+    padding-bottom: 80px;
+  }
+  .todaysDiscount { 
+    margin: 213px 0 0 15%;
+  }
+  .jamesPortfolio {
+    margin-left: 11%;
+}
+.portfolio {
+  margin-left: 7%;
+}
+.jamesPortfolio {
+  margin-left: 9%;
+  margin-top: -55px;
+  font-size: 8em;
+}
+.videoWrapper { 
+  padding-bottom: 0;
+}
+.mytalents {
+  font-size: 4rem;
+ }
+ .whyHireMe {
+  margin-left: -7%;
+  font-size: 7rem;
+  margin-top: 5%;
+}
+
+#CTAabout .hireMeBtn { 
+  margin-top: 175px;
+  margin-left: 30%;
+}
+#CTAabout .freeQuoteBtn {
+  margin-left: 30%;
+}
+
+.selfQuote { 
+  width: 50%;
+  margin-left: 43%;
+  margin-top: -25%;
+  font-size: 225%;
+}
+
+
+  }
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  /* Styles */
+  }
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    /* Styles */
+  }
