@@ -120,6 +120,11 @@ hr.topLine {
  padding-bottom: 20%;
  margin-left: 3%;
  margin-right: 3%;
+ margin-bottom: 285px;
+}
+.responsive {
+    width: 100%;
+  height: auto;
 }
 
 /* NEW MENU -----------------------  */
@@ -687,7 +692,10 @@ footer {
  padding-bottom: 15%;
  margin-top: -100px;
  margin-bottom: 2px;
- text-decoration: none;
+}
+.phone { 
+    text-decoration: none;
+    color: #fff;
 }
 
 .bottomFtr {
@@ -1130,7 +1138,10 @@ button:hover {
    .callNow {
      font-size: 5em;
      margin-top: -30px;
-     text-decoration: none;
+   }
+   .phone { 
+       text-decoration: none;
+       color: #fff;
    }
 
    .hurry {
@@ -1195,6 +1206,11 @@ button:hover {
  height: 150px;
  padding-bottom: 20%;
  margin-left: 3%;
+ margin-bottom: 90px;
+}
+.responsive {
+    width: 100%;
+  height: auto;
 }
 
    .jamesPortfolio {
@@ -1226,6 +1242,7 @@ button:hover {
  .education {
    width: 68%;
    padding-bottom: 5%;
+   background-color: black;
 }
 
 .education ul {
@@ -1459,6 +1476,18 @@ textarea {
 #regForm {
     margin: 100px auto 200px;
 }
+
+.thankyou {
+    display: flex;
+    width: 75%;
+    background-color: #000;
+
+}
+.msg {
+    color: #fff;
+    font-size:200%;
+}
+
 .james {
  border-radius: 50%;
  margin-left: 23%;
@@ -1614,6 +1643,11 @@ textarea {
 .videoWrapper { 
  padding-bottom: 0;
 }
+.responsive {
+    width: 100%;
+  height: auto;
+}
+
 .talents {
  font-size: 4rem;
 }
@@ -1645,6 +1679,21 @@ textarea {
  .talents {
     margin-top: 200px;
 }
+
+.videoWrapper {
+    display: block;
+    padding-top: 25px;
+    height: 150px;
+    padding-bottom: 20%;
+    margin-left: 3%;
+    margin-bottom: 390px;
+   }
+   .responsive {
+    width: 70%;
+    height: auto;
+    margin-left: 22%;
+}
+
  }
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
@@ -1678,6 +1727,21 @@ textarea {
 .selfQuote {
     margin-top: -14%;
 }
+
+.videoWrapper {
+    display: block;
+    padding-top: 25px;
+    height: 150px;
+    padding-bottom: 20%;
+    margin-left: 3%;
+    margin-bottom: 390px;
+   }
+   .responsive {
+    width: 50%;
+    height: auto;
+    margin-left: 22%;
+}
+
  }
 
 
