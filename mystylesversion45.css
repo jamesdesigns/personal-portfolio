@@ -628,6 +628,14 @@ clear: both;
  margin-top: -17%;
 }
 
+.testimonialLink { 
+ text-decoration: none;
+ color: #F5F5F5;
+}
+.testimonialLink:hover {
+ color: #000;
+} 
+
 .james {
  border-radius: 50%;
  margin-left: 20%;
@@ -1514,7 +1522,7 @@ textarea {
  .jamesPortfolio {
    font-size: 3em;
    margin-top: -28px;
-   margin-left: 10%;
+   margin-left: 12%;
 }
 
 .myPortfolio {

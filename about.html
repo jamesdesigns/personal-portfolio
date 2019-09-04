@@ -3,7 +3,7 @@
 <head>
 <title>Artist James Hooper - Portfolio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="mystylesVersion28.css" rel="stylesheet" type="text/css">
+<link href="mystylesVersion45.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -42,7 +42,7 @@
 
 <section>
     <div class="videoWrapper">
-      <video width="100%" controls src="http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1" frameborder="0"></video>
+        <img class="responsive" src="images/portrait-jameshooper.png" alt="James Hooper" />
     </div>
 </section>
 
@@ -137,10 +137,10 @@
     <p class="yourAnswer">It is very important for me as a web professional to create beautiful, meaningful, and inspiring work. 
       Businesses small or large, must have a strong brand that portrays quality
      and success. You need to communicate who you are, what you sell, and how to purchase your product or service in the simplest manner possible. I can help you create and build a strong brand that earns you more customers, traffic, and revenue.</p>
-      <div id="CTAabout">
-          <button class="hireMeBtn btn">HIRE ME</button>
-          <button class="freeQuoteBtn btn">FREE QUOTE</button>
-        </div>
+     <div id="CTAabout">
+        <button class="hireMeBtn btn" onclick="window.location.href = 'https://www.jameshooperdesigns.com';">HIRE ME</button>
+        <button class="freeQuoteBtn btn" onclick="window.location.href = 'https://www.jameshooperdesigns.com';">FREE QUOTE</button>
+      </div>
     </section>
 
 
@@ -150,9 +150,12 @@
         <div class="homeFtr">
             <img class="edge" src="../artistjameshooper/images/black-cut-edge.svg" alt="">
             <img class="james" width="200" height="200" src="../artistjameshooper/images/client.png" alt="Lynndsey">
-            <p class="selfQuote">"He did a fantastic job for our company and was always there every step of the way. 
-                I would highly recommend him!</p>
-                <div class="bottomFtr">
+            <p class="selfQuote">"James was a great designer and he considered everything that we were looking for in a new logo. I would highly recommend him!<br>
+                <span style="font-size:70%;">&#8212; Lynndsey Eldridge, <a class="testimonialLink" href="https://www.bigmountainbarbell.com" target="_
+                  blank">Big Mountain Barbell</a></span>   
+            </p>
+             
+            <div class="bottomFtr">
                     <div class="socialIcons">
                       <a class="social"  href="https://twitter.com/ArtistJHooper" target="_blank"><img src="../artistjameshooper/images/twitter-icon.png" width="45" height="45" alt="twitter" /></a>
                       <a class="social"  href="https://www.linkedin.com/in/james-hooper-64775b163/" target="_blank"><img src="../artistjameshooper/images/linkedin-icon.png" width="45" height="45" alt="Linkedin" /></a>
@@ -165,88 +168,7 @@
         </div>
     </footer>
     </div>
-<script>
-var currentTab = 0; // Current tab is set to be the first tab (0)
-showTab(currentTab); // Display the current tab
 
-function outputName() {
- var x,y,z;
- x = document.getElementById("regForm");
- y = x.elements["fname"].value;
- z = document.getElementById("demo").innerHTML = y;
- document.write(z);
-}
-
-function showTab(n) {
-  // This function will display the specified tab of the form...
-  var x = document.getElementsByClassName("tab");
-  x[n].style.display = "block";
-  //... and fix the Previous/Next buttons:
-  if (n == 0) {
-    document.getElementById("prevBtn").style.display = "none";
-  } else {
-    document.getElementById("prevBtn").style.display = "inline";
-  }
-  if (n == (x.length - 1)) {
-    document.getElementById("nextBtn").innerHTML = "Submit";
-  } else {
-    document.getElementById("nextBtn").innerHTML = "Next";
-  }
-  //... and run a function that will display the correct step indicator:
-  fixStepIndicator(n)
-}
-
-function nextPrev(n) {
-  // This function will figure out which tab to display
-  var x = document.getElementsByClassName("tab");
-  // Exit the function if any field in the current tab is invalid:
-  if (n == 1 && !validateForm()) return false;
-  // Hide the current tab:
-  x[currentTab].style.display = "none";
-  // Increase or decrease the current tab by 1:
-  currentTab = currentTab + n;
-  // if you have reached the end of the form...
-  if (currentTab >= x.length) {
-    // ... the form gets submitted:
-    document.getElementById("regForm").submit();
-    return false;
-  }
-  // Otherwise, display the correct tab:
-  showTab(currentTab);
-}
-
-function validateForm() {
-  // This function deals with validation of the form fields
-  var x, y, i, valid = true;
-  x = document.getElementsByClassName("tab");
-  y = x[currentTab].getElementsByTagName("input");
-  // A loop that checks every input field in the current tab:
-  for (i = 0; i < y.length; i++) {
-    // If a field is empty...
-    if (y[i].value == "") {
-      // add an "invalid" class to the field:
-      y[i].className += " invalid";
-      // and set the current valid status to false
-      valid = false;
-    }
-  }
-  // If the valid status is true, mark the step as finished and valid:
-  if (valid) {
-    document.getElementsByClassName("step")[currentTab].className += " finish";
-  }
-  return valid; // return the valid status
-}
-
-function fixStepIndicator(n) {
-  // This function removes the "active" class of all steps...
-  var i, x = document.getElementsByClassName("step");
-  for (i = 0; i < x.length; i++) {
-    x[i].className = x[i].className.replace(" active", "");
-  }
-  //... and adds the "active" class on the current step:
-  x[n].className += " active";
-}
-</script>
 <script>
                     function myFunction() {
                       var x = document.getElementById("myTopnav");
