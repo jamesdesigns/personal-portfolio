@@ -86,10 +86,17 @@ hr.topLine {
  text-align: left;
  margin-left: 16.5%;
 }
+.jamesBlog {
+ color: #fff;
+ font-size: 11.5em;
+ text-align: left;
+ margin-left: 15%;
+ margin-top: -80px;
+}
 
 .myPortfolio {
-    font-size: 12em;
-    margin-top: -82px;
+    font-size: 11.5em;
+    margin-top: -80px;
     margin-left: 4.5%;
     color: #fff;
    }
@@ -339,7 +346,7 @@ p {
  color: #000;
  width: 190px;
  margin-bottom: 8%;
- margin-top:275px;
+ margin-top:205px;
  margin-left: 40%;
  font-family: Arial, Helvetica, sans-serif;
  font-weight: bold;
@@ -628,6 +635,15 @@ clear: both;
  margin-top: -17%;
 }
 
+.fixQuote {
+    font-family:sans-serif;
+    font-size: 14vw;
+    content: "\201C";
+    margin-left: -60px;
+    float: left;
+    margin-top: -115px;
+}
+
 .testimonialLink { 
  text-decoration: none;
  color: #F5F5F5;
@@ -640,7 +656,6 @@ clear: both;
  border-radius: 50%;
  margin-left: 17%;
  margin-top:-10%;
- margin-bottom: 5%;
 }
 
 
@@ -663,6 +678,8 @@ h1 {
    margin:0 auto;
    color: #fff;
 }
+
+
 
 /* HOMEFOOTER */
 
@@ -693,12 +710,12 @@ footer {
 }
 
 .callNow {
- font-size: 12.05vw;
+ font-size: 5vw;
  font-weight: bold;
  color: #fff;
  text-align: center;
  padding-bottom: 15%;
- margin-top: -100px;
+ margin-top: -70px;
  margin-bottom: 2px;
 }
 .phone { 
@@ -821,6 +838,15 @@ margin: 0;
  height: 100%;
 }
 
+.mailIcon {
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-top: -150px;
+    padding-bottom: 5%;
+
+}
+
 /* Responsive Menu */
 .overlay {
    height: 100%;
@@ -912,6 +938,7 @@ margin: 0;
    flex-direction: column;
    justify-content: center;
    margin-left: 15.5%;
+   margin-bottom: 8%;
 }
 
 .numberOfArticle {
@@ -1053,7 +1080,7 @@ margin: 0;
 
 /* Contact form */
 #regForm {
-    margin: 200px auto 200px;
+    margin: 200px auto 70px;
  font-family: din-2014, sans-serif;
  font-weight: 400;
  font-style: normal;
@@ -1149,8 +1176,8 @@ button:hover {
 @media screen and (max-width: 800px) {
 
    .callNow {
-     font-size: 5em;
-     margin-top: -30px;
+    font-size: 1.25em;
+    margin-top: -10px;
    }
    .phone { 
        text-decoration: none;
@@ -1158,7 +1185,7 @@ button:hover {
    }
 
    .hurry {
-     padding-top: 80px;
+     padding-top: 20px;
    }
 
   .todaysDiscount {
@@ -1200,8 +1227,13 @@ button:hover {
    }
 
    .contactFtr {
-     height: 600px;
+     height: 500px;
    }
+   .mailIcon {
+    width: 35%;   
+    margin-left:33%;
+    margin-top:-50px;
+}
 
    .todayOnly {
      margin-top: -120px;
@@ -1230,6 +1262,12 @@ button:hover {
      margin-top: -33px;
      font-size: 4em;
      margin-left: 11%;
+   }
+
+   .jamesBlog {
+    margin-top: -33px;
+    font-size: 4em;
+    margin-left: 11%;
    }
 
    .jamesIntroDesign {
@@ -1293,16 +1331,24 @@ button:hover {
 .james {
  border-radius: 50%;
  margin-left: 32.5%;
- margin-top: 10%;
  margin-bottom: 5%;
 }
 
 .selfQuote {
  font-size: 150%;
  font-style: italic;
- margin-left: 30.5%;
+ margin-left: 13.5%;
  margin-bottom: 15%;
  margin-top: 5%;
+ width: 80%;
+}
+
+.fixQuote {
+    font-size: 18vw;
+    content: "\201C";
+    margin-left: -20px;
+    float: left;
+    margin-top: -65px;
 }
 
 #CTAabout .hireMeBtn {
@@ -1508,8 +1554,17 @@ textarea {
 }
 
 .selfQuote {
-    margin-left: 9%;
-    width: 80%;
+    margin-left: 14%;
+    width: 75%;
+}
+
+
+.fixQuote {
+    font-size: 18vw;
+    content: "\201C";
+    margin-left: -20px;
+    float: left;
+    margin-top: -35px;
 }
 
 .coding {
@@ -1528,6 +1583,12 @@ textarea {
    font-size: 3em;
    margin-top: -28px;
    margin-left: 12%;
+}
+
+.jamesBlog {
+    font-size: 4em;
+    margin-top: -33px;
+    padding-left: 14px;
 }
 
 .myPortfolio {
@@ -1638,9 +1699,7 @@ textarea {
  .todaysDiscount { 
    margin: 213px 0 0 15%;
  }
- .jamesPortfolio {
-   margin-left: 11%;
-}
+
 .myPortfolio {
  font-size: 8em;
  margin-top: -58px;
@@ -1653,17 +1712,26 @@ textarea {
     margin-top: -57px;
     font-size: 8em;
 }
+.jamesBlog {
+    /* margin-left: -450px; */
+    margin-top: -57px;
+    font-size: 8em;
+}
 .videoWrapper { 
  padding-bottom: 0;
 }
 .responsive {
-    width: 100%;
+width: 80%;
   height: auto;
+  margin-left: 9.25%;
 }
 
 .talents {
  font-size: 4rem;
+ margin-top: -160px;
+ background-color: #000;
 }
+
 .whyHireMe {
  margin-left: -7%;
  font-size: 7rem;
@@ -1681,8 +1749,29 @@ textarea {
 .selfQuote { 
  width: 50%;
  margin-left: 43%;
- margin-top: -25%;
  font-size: 225%;
+}
+
+.fixQuote {
+    font-size: 14vw;
+    content: "\201C";
+    margin-left: -60px;
+    float: left;
+    margin-top: -85px;
+}
+
+.myQuote {
+    width: 50%;
+    margin-left: 43%;
+    font-size: 225%;
+    padding-left: 5%;
+    border-left: 5px solid #fff;
+}
+
+.mailIcon {
+    margin-left:40%;
+    margin-top:-125px;
+    padding-bottom:5%;
 }
  }
 
@@ -1691,6 +1780,7 @@ textarea {
  /* Styles */
  .talents {
     margin-top: 200px;
+    margin-left: 17%;
 }
 
 .videoWrapper {
@@ -1722,6 +1812,10 @@ textarea {
 }
 .jamesPortfolio {
     margin-left: 26.5%;
+}
+.jamesBlog {
+    margin-left: 26.5%;
+    margin-top: -80px;
 }
 
 .talents {

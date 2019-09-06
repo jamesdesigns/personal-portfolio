@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Artist James Hooper - Portfolio</title>
+<title>James Hooper Designs - Portfolio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="mystylesVersion45.css" rel="stylesheet" type="text/css">
+<link href="mystylesheet7.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,6 +24,7 @@
     <div class="topnav" id="myTopnav">
         <div class="header-right">
           <a href="index.html">Home</a>
+          <a href="blog.html">Blog</a>
           <a href="about.html">About</a>
           <a href="portfolio.html">Portfolio</a>
           <a href="contact.html">Contact</a>
@@ -40,7 +41,7 @@
      <h1 class="jamesPortfolio">JAMES HOOPER</h1>
 </section>
 
-<section>
+<section id="myProfile">
     <div class="videoWrapper">
         <img class="responsive" src="images/portrait-jameshooper.png" alt="James Hooper" />
     </div>
@@ -48,7 +49,6 @@
 
 <section>
     <h2 class="talents">Artist. Designer. Developer.</h2>
-     
 </section>    
 
 
@@ -138,8 +138,8 @@
       Businesses small or large, must have a strong brand that portrays quality
      and success. You need to communicate who you are, what you sell, and how to purchase your product or service in the simplest manner possible. I can help you create and build a strong brand that earns you more customers, traffic, and revenue.</p>
      <div id="CTAabout">
-        <button class="hireMeBtn btn" onclick="window.location.href = 'https://www.jameshooperdesigns.com';">HIRE ME</button>
-        <button class="freeQuoteBtn btn" onclick="window.location.href = 'https://www.jameshooperdesigns.com';">FREE QUOTE</button>
+        <button class="hireMeBtn btn" onclick="window.location.href = 'https://www.jameshooperdesigns.com/contact.html';">HIRE ME</button>
+        <button class="freeQuoteBtn btn" onclick="window.location.href = 'https://www.jameshooperdesigns.com/contact.html';">FREE QUOTE</button>
       </div>
     </section>
 
@@ -148,12 +148,13 @@
 
     <footer>
         <div class="homeFtr">
-            <img class="edge" src="../artistjameshooper/images/black-cut-edge.svg" alt="">
-            <img class="james" width="200" height="200" src="../artistjameshooper/images/client.png" alt="Lynndsey">
-            <p class="selfQuote">"James was a great designer and he considered everything that we were looking for in a new logo. I would highly recommend him!<br>
-                <span style="font-size:70%;">&#8212; Lynndsey Eldridge, <a class="testimonialLink" href="https://www.bigmountainbarbell.com" target="_
-                  blank">Big Mountain Barbell</a></span>   
-            </p>
+            <img class="aboutEdge" src="../artistjameshooper/images/black-cut-edge.svg" alt="">
+            <!-- <img class="james" width="200" height="200" src="../artistjameshooper/images/james.jpg" alt="James Hooper"> -->
+            <blockquote class="selfQuote">
+                <span class="fixQuote">&#8220;</span>
+              Designing for the web is my true passion. I want to design and build the best user experience possible.<br>
+                <span style="font-size:70%;">&#8212; James Hooper, Web Designer & Developer</span>   
+            </blockquote>
              
             <div class="bottomFtr">
                     <div class="socialIcons">
@@ -181,5 +182,6 @@
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 <script src="script.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
