@@ -292,7 +292,7 @@ p {
 .myName {
  display: block;
  width: 100%;
- margin-top: -4.5%;
+ /* margin-top: -4.5%; */
  font-size: 12.05vw;
  /* new */
  background: linear-gradient(to right,#ff8a00,#da1b60);
@@ -819,9 +819,6 @@ margin: 0;
  width: 400px;
  height: 400px;
  margin: 20px;
- background: #ff8a00;  /* fallback for old browsers */
- background: -webkit-linear-gradient(to left, #da1b60, #ff8a00);  /* Chrome 10-25, Safari 5.1-6 */
- background: linear-gradient(to left, #da1b60, #ff8a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  transition: all 0.3s ease;
  border-radius: 8px;
 }
@@ -1272,7 +1269,7 @@ button:hover {
    .jamesBlog {
     margin-top: -33px;
     font-size: 4em;
-    margin-left: 11%;
+    margin-left: 15%;
    }
 
    .jamesIntroDesign {
@@ -1593,7 +1590,7 @@ textarea {
 .jamesBlog {
     font-size: 4em;
     margin-top: -33px;
-    padding-left: 14px;
+    padding-left: 1px;
 }
 
 .myPortfolio {
@@ -1816,18 +1813,17 @@ width: 80%;
     margin-right: 35%;
 }
 .jamesPortfolio {
-    margin-left: 26.5%;
+    margin-left: 21.5%;
 }
 .jamesBlog {
-    margin-left: 26.5%;
     margin-top: -80px;
 }
 
 .talents {
-    margin-top: 300px;
-    margin-left: 15%;
+    margin-top: -150px;
+    margin-left: 16%;
     padding-bottom: 10%;
-    font-size: 8.5rem;
+    font-size: 6.5rem;
 }
 
 #CTAabout .hireMeBtn {
@@ -1851,7 +1847,7 @@ width: 80%;
    .responsive {
     width: 50%;
     height: auto;
-    margin-left: 22%;
+    margin-left: 25%;
 }
 
  }
