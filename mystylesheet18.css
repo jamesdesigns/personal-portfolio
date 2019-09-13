@@ -97,7 +97,6 @@ hr.topLine {
 .myPortfolio {
     font-size: 11.5em;
     margin-top: -80px;
-    margin-left: 4.5%;
     color: #fff;
    }
 
@@ -603,7 +602,6 @@ clear: both;
 }
 
 .whyHireMe {
- margin-left: 6%;
  color: #ef8d36;
  font-size: 10rem;
  margin-top:5%;
