@@ -819,12 +819,10 @@ margin: 0;
  margin: 20px;
  transition: all 0.3s ease;
  border-radius: 8px;
- opacity: 1;
 transition: .5s ease;
 }
 
 .designWork:hover {
- opacity:0.825; 
  -webkit-transform: scale(1.05);
  -ms-transform: scale(1.05);
  transform: scale(1.05);
@@ -856,6 +854,14 @@ transition: .5s ease;
  margin-top: -2%;
  margin-bottom: 5%;
  font-size: 1.5rem;
+}
+.description:hover {
+  background: linear-gradient(to right,#ff8a00,#da1b60);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    z-index: 1000;
 }
 .sub-desc {
   margin-left: 5%;
@@ -948,7 +954,7 @@ transition: .5s ease;
    margin-top: -100px;
    padding: .25rem;
    font-size: 1.25em;
-   width: 34%;
+   width: 50%;
  }
 
  .blog {
@@ -1260,10 +1266,6 @@ button:hover {
      width: 100%;
      height: 530px;
      margin-top: -125px;
-   }
-
-   .aboutEdge {
-       margin-top:-50px;
    }
 
    .contactFtr {
