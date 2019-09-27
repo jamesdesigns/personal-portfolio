@@ -827,6 +827,17 @@ margin: 0;
 
 .description {
  margin: 0 auto;
+ margin-left: 5%;
+ margin-top: -2%;
+ margin-bottom: 5%;
+ font-size: 1.5rem;
+}
+.sub-desc {
+  margin-left: 5%;
+  margin-top: -15px;
+  display: flex;
+  width: 400px;
+  color: gray;
 }
 
 /* Contact Footer */
