@@ -825,6 +825,9 @@ margin: 0;
  border-radius: 50%;
 }
 
+.description {
+ margin: 0 auto;
+}
 
 /* Contact Footer */
 .contactFtr {
