@@ -505,7 +505,7 @@ clear: both;
 .totalSkills {
   display: flex;
   flex-direction: row;
-  margin-top:-150px;
+  margin-top:-30px;
   width: 100%;
 }
 
@@ -590,21 +590,33 @@ clear: both;
 .talents {
  display:block;
  width:auto;
-
  margin-top: 100px;
  margin-left: 15%;
- padding-bottom: 15%;
+ /* padding-bottom: 15%; */
  font-family: din-2014, sans-serif;
  font-weight: 400;
  font-style: normal;
  font-size: 5.5rem;
- color: #fff;
+ /* color: #ef8d36; */
+ background: linear-gradient(to right,#ff8a00,#da1b60);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ -webkit-box-decoration-break: clone;
+ box-decoration-break: clone;
+ z-index: 1000;
 }
 
+
 .whyHireMe {
- color: #ef8d36;
+ /* color: #ef8d36; */
  font-size: 10rem;
  margin-top:5%;
+ background: linear-gradient(to right,#ff8a00,#da1b60);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ -webkit-box-decoration-break: clone;
+ box-decoration-break: clone;
+ z-index: 1000;
 }
 
 .yourAnswer {
@@ -833,7 +845,7 @@ transition: .5s ease;
   display: block;
   width: 400px;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-left: 5%;
   margin-top: 25%;
 }
@@ -951,7 +963,6 @@ transition: .5s ease;
    background: #000;
    margin: .25rem;
    margin-left: 50px;
-   margin-top: -100px;
    padding: .25rem;
    font-size: 1.25em;
    width: 50%;
@@ -1531,8 +1542,9 @@ textarea {
    font-size: 3.25rem;
  }
  .whyHireMe {
-   margin-left: -12px;
-    font-size: 5rem;
+    margin-left: -5px;
+    font-size: 4rem;
+    padding-bottom: 20px;
 }
 
 .contact-header { 
@@ -1647,6 +1659,33 @@ textarea {
  height: auto;
  margin-left: -5px;
 }
+
+
+.description {
+    margin: 0 auto;
+    /* margin-left: 5%; */
+    margin-top: -2%;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+   }
+   .description:hover {
+     background: linear-gradient(to right,#ff8a00,#da1b60);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       -webkit-box-decoration-break: clone;
+       box-decoration-break: clone;
+       z-index: 1000;
+   }
+   .sub-desc {
+     margin-left: 0;
+     margin-top: -15px;
+     display: flex;
+     width: 90%;
+     color: gray;
+   }
+   
+
+
  .todaysDiscount { 
    margin: 183px 0 0 15%;
  }
@@ -1771,12 +1810,13 @@ width: 80%;
 
 .talents {
  font-size: 4rem;
- margin-top: -160px;
+ margin-top: 50px;
  background-color: #000;
+ padding-bottom: 100px;
 }
 
 .whyHireMe {
- margin-left: -7%;
+ /* margin-left: -7%; */
  font-size: 7rem;
  margin-top: 5%;
 }
@@ -1824,6 +1864,7 @@ width: 80%;
  .talents {
     /* margin-top: 200px; */
     margin-left: 20%;
+    padding-bottom:150px;
 }
 
 .videoWrapper {
@@ -1854,16 +1895,14 @@ width: 80%;
     margin-right: 35%;
 }
 .jamesPortfolio {
-    margin-left: 21.5%;
+    margin-left: 30.5%;
 }
 .jamesBlog {
     margin-top: -80px;
 }
 
 .talents {
-    margin-top: -150px;
-    margin-left: 16%;
-    padding-bottom: 10%;
+    margin-left: 30%;
     font-size: 6.5rem;
 }
 
