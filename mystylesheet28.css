@@ -717,7 +717,7 @@ footer {
  font-weight: bold;
  color: #000;
  text-align: center;
- margin-top:-200px;
+ margin-top:-270px;
 }
 
 .callNow {
@@ -1232,7 +1232,8 @@ button:hover {
 
    .callNow {
     font-size: 1.25em;
-    margin-top: -10px;
+    margin-top: -40px;
+    padding-top:20px;
    }
    .phone { 
        text-decoration: none;
@@ -1286,8 +1287,8 @@ button:hover {
      height: 500px;
    }
    .mailIcon {
-    width: 35%;   
-    margin-left:33%;
+    /* width: 35%;    */
+    margin-left:40%;
     margin-top:-50px;
 }
 
