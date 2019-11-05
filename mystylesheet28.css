@@ -151,7 +151,7 @@ hr.topLine {
  display: block;
  color: #f2f2f2;
  text-align: center;
- padding: 14px 16px;
+ padding: 14px 10px;
  text-decoration: none;
  font-size: 17px;
 }
@@ -161,6 +161,7 @@ hr.topLine {
 }
 
 .topnav a.active {
+ /* color: #742e2e; */
  color: #989898;
 }
 
@@ -1251,7 +1252,8 @@ button:hover {
  #CTA {
    margin: 0 auto;
    float:none;
-   margin-top: 12%;
+   /* margin-top: 12%; */
+   margin-top: 20%;
  }
 
    .bottomFtr {
@@ -1435,7 +1437,8 @@ button:hover {
 .box p {
  width: 70%;
  margin-bottom: 8%;
- margin-top: 2%;
+ /* margin-top: 2%; */
+ margin-top: 10%;
  margin-left: 16%;
 }
 
@@ -1495,6 +1498,7 @@ textarea {
     background-color: #000;
     opacity: .95;
     font-size: 200%;
+    padding-left: 13%;
   }
  
   .topnav.responsive .icon {
@@ -1515,7 +1519,7 @@ textarea {
   }
   .header-right {
     margin-left: 32.5%;
-    margin-right: 30%;
+    margin-right: 50%;
  }
 
  .space {
@@ -1760,7 +1764,7 @@ textarea {
 }
 
  .edgeContact {
-   margin-top:-10px;
+   margin-top:-50px;
  }
 
  .blogImg { 
@@ -1790,9 +1794,9 @@ textarea {
 }
 
 .jamesPortfolio {
-    margin-left: 12%;
-    margin-top: -57px;
-    font-size: 8em;
+  margin-left: 15%;
+  margin-top: -43px;
+  font-size: 5.5rem;
 }
 .jamesBlog {
     /* margin-left: -450px; */
@@ -1805,7 +1809,7 @@ textarea {
 .responsive {
 width: 80%;
   height: auto;
-  margin-left: 9.25%;
+  /* margin-left: 9.25%; */
 }
 
 .talents {
@@ -1888,7 +1892,7 @@ width: 80%;
    .myName {
     display: block;
     width: 100%;
-    margin-top: 2%;
+    margin-top: 5%;
     font-size: 12.05vw;
 }
 .blog p {
