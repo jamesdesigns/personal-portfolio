@@ -714,11 +714,11 @@ footer {
 .hurry {
  display: block;
  width: 100%;
- font-size: 7.05vw;
+ font-size: 10.05vw;
  font-weight: bold;
  color: #000;
  text-align: center;
- margin-top:-270px;
+ margin-top:-190px;
 }
 
 .callNow {
@@ -1233,8 +1233,8 @@ button:hover {
 
    .callNow {
     font-size: 1.25em;
-    margin-top: -40px;
-    padding-top:20px;
+    margin-top: -20px;
+    /* padding-top:20px; */
    }
    .phone { 
        text-decoration: none;
