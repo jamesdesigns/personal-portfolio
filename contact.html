@@ -31,6 +31,7 @@
     <div class="topnav" id="myTopnav">
         <div class="header-right">
           <a href="index.html">Home</a>
+          <a href="blog.html">Blog</a>
           <a href="about.html">About</a>
           <a href="portfolio.html">Portfolio</a>
           <a href="contact.html" class="active">Contact</a>
@@ -66,6 +67,7 @@
   <div class="tab submitTab">Submit Information:
     <!-- <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
     <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password"></p> -->
+    <p class=""></p>
   </div>
   <div style="overflow:hidden;">
     <div style="margin:0 auto;">
@@ -184,14 +186,14 @@ function fixStepIndicator(n) {
 }
 </script>
 <script>
-                    function myFunction() {
-                      var x = document.getElementById("myTopnav");
-                      if (x.className === "topnav") {
-                        x.className += " responsive";
-                      } else {
-                        x.className = "topnav";
-                      }
-                    }
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 <script src="script.js"></script>
