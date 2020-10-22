@@ -52,6 +52,7 @@ opacity: 0;
 -webkit-transition: opacity 0.5s;
 -moz-transition: opacity 0.5s;
 -o-transition: opacity 0.5s;
+color: black;
 }
 
 .arrow:hover span {
@@ -62,12 +63,12 @@ opacity: 1;
 display: block;
 width: 100%;
 height: 180px;
+/*margin-top: 100px;*/
 }
 
 .topLine {
-/* border-top: 1px solid #000; */
+border-top: 1px solid black;
 margin-top:100px;
-z-index: 1000;
 /*position: relative;*/
 top:100;
 }
@@ -119,6 +120,7 @@ border-radius: 3%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+  z-index: 1500;
 }
 
 #chartContainer {
@@ -206,9 +208,7 @@ width: 100%;
 padding-top: 10px;
 }
 
-hr {
-border: 1px dotted #000;
-}
+
 
 .horizontalLine {
 margin-top:10%;
@@ -1273,7 +1273,7 @@ width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-  padding-bottom: 30px;;
+  padding-bottom: 30px;
 }
 
 .todaysDiscount {
@@ -1348,9 +1348,7 @@ height: auto;
 }
 
  .jamesPortfolio {
-   margin-top: -34px;
-   /*font-size: 4em;*/
-   /*margin-left: 11%;*/
+   padding-top: 100px;
  }
 
  .jamesBlog {
@@ -1578,10 +1576,21 @@ width: 99%;
  margin-top: -150px;
  font-size: 3.25rem;
 }
+
 .whyHireMe {
   margin-left: -5px;
   font-size: 4rem;
   padding-bottom: 20px;
+}
+
+ .center-img {
+  display: block;
+  width:320px;
+  height: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding-bottom: 30px;
 }
 
 .contact-header { 
@@ -1681,6 +1690,7 @@ float: left;
   font-size: 4em;
   margin-top: -33px;
   padding-left: 1px;
+  padding-top: 100px;
 }
 
 .myPortfolio {
@@ -1827,12 +1837,11 @@ color: #fff;
 }
 
 .jamesPortfolio {
-/*margin-left: 15%;*/
-/*margin-top: -44px;*/
 font-size: 6.5rem;
+padding-top: 100px;
 }
+
 .jamesBlog {
-  /* margin-left: -450px; */
   margin-top: -57px;
   font-size: 8em;
 }
