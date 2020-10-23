@@ -1950,6 +1950,19 @@ font-size: 225%;
   margin-top: -80px;
 }
 
+.yourAnswer {
+  display:block;
+  line-height: 1.75;
+  text-align: left;
+  background: #000;
+  margin: .25rem;
+  margin-bottom: 5%;
+  margin-left: 27%;
+  padding: .25rem;
+  font-size: 1.25em;
+  width: 48%;
+}
+
 .talents {
   margin-left: 22%;
   font-size: 6.5rem;
