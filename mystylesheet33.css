@@ -224,7 +224,7 @@ color: #ccc;
 font-size: 10em;
 color: #fff;
 margin-left: 15%;
-padding-top: 18%;
+padding-top: 12%;
 }
 
 #projects {
@@ -1929,6 +1929,18 @@ font-size: 225%;
   height: auto;
   margin-left: 15%;
 }
+.yourAnswer {
+    display:block;
+    line-height: 1.75;
+    text-align: left;
+    background: #000;
+    margin: .25rem;
+    margin-bottom: 5%;
+    margin-left: 27%;
+    padding: .25rem;
+    font-size: 1.25em;
+    width: 48%;
+}
 
 }
 /* Large screens ----------- */
@@ -1937,30 +1949,35 @@ font-size: 225%;
  .myName {
   display: block;
   width: 100%;
-  margin-top: 5%;
+  margin-top: -290px;
   font-size: 12.05vw;
 }
 .blog p {
   margin-right: 35%;
 }
 .jamesPortfolio {
-  /* margin-left: 22.5%; */
+  /*margin-left: 22.5%;*/
 }
 .jamesBlog {
   margin-top: -80px;
 }
 
+.myViews {
+  width: 80%;
+  margin-left: 10%;
+}
+
 .yourAnswer {
-  display:block;
-  line-height: 1.75;
-  text-align: left;
-  background: #000;
-  margin: .25rem;
-  margin-bottom: 5%;
-  margin-left: 27%;
-  padding: .25rem;
-  font-size: 1.25em;
-  width: 48%;
+    display:block;
+    line-height: 1.75;
+    text-align: left;
+    background: #000;
+    margin: .25rem;
+    margin-bottom: 5%;
+    margin-left: 27%;
+    padding: .25rem;
+    font-size: 1.25em;
+    width: 48%;
 }
 
 .talents {
@@ -2009,7 +2026,7 @@ while allowing other browsers to show the gradient title */
       display: flex;
       justify-content: center;
       width: 100%;
-      /*margin-top: 30px;*/
+      margin-top: -190px;
       /*font-size: 13vw;*/
       background: linear-gradient(to right,#ff8a00,#da1b60);
       -webkit-background-clip: text;
