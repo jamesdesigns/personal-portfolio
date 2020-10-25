@@ -493,9 +493,11 @@ clear: both;
  font-weight: 100;
  line-height:50px;
  margin-top: -10px;
+ margin-left: -10px;
  font-family: din-2014, sans-serif;
  font-weight: 400;
  font-style: normal;
+ z-index: 9999;
 }
 
 #profession p {
