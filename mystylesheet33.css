@@ -502,11 +502,8 @@ clear: both;
 
 #profession p {
 color: #989898;
+padding-bottom: 3px;
 } 
-
-#profession p {
-  color: #989898;
-}
 
 #profession .subHeadLogo {
 color: #fff;
@@ -1808,7 +1805,7 @@ margin-left: -5px;
 
  #profession p {
   color: #989898;
-  padding-bottom: 2px;
+  padding-bottom: 3px;
 }
 
 .edgeContact {
